@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FXP FIT</string>
+    
+    <!-- Exercises Contents -->
+    <string name="ex_description">Description:</string>
+    <string name="ex_muscle">Muscle(s) Targeted:</string>
+    <string name="ex_notes">Notes:</string>
+    <string name="ex_focus">Focus:</string>
+    
+    <!-- Nutritions Contents -->
+    <string name="nu_description">Description:</string>
+    <string name="nu_healthy">Healthy Choices:</string>
+    
+    <string name="loading">LOADING...</string>
+    
+    <string name="signature_workout">Signature Workout</string>
+    <string name="purchase_cancelled">Purchase is canceled!</string>
+    <string name="purchase_failed">An error occurs when purchase signature workout!</string>
+    <string name="purchase_successful">Signature workout has been purchased!</string>
+    <string name="purchases_restore_succeeded">Restore purchases succeeded!</string>
+    <string name="purchases_restore_failed">Restore purchases failed!</string>
+    
+    <string name="error_network">An internet connection is needed to view videos</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="error_not_available">This video is not available.</string>
+    
+    <string name="main">MAIN</string>
+    <string name="premium">PREMIUM</string>
+    <string name="workouts">WORKOUTS</string>
+    <string name="workouts_normal">Workouts</string>
+    <string name="workout">Workout</string>
+
+    <string name="main_workouts">Main Workouts</string>
+    <string name="premium_workouts">Premium Workouts</string>
+    <string name="premium_workout">Premium Workout</string>
+    
+    <string name="apps">Our Apps</string>
+    
+    <string name="exercises">Exercises</string>
+    
+    <string name="nutrition_guides">Nutrition Guides</string>
+    
+    <string name="done">DONE</string>
+    <string name="ok">OK</string>
+    
+    <string name="points">points</string>
+    <string name="fuel_points">Fuel Points</string>
+    <string name="fuel_points_des">Fuel Points burned in the last...</string>
+    
+    <string name="select_workout">Select Workout</string>
+    <string name="start_workout">START WORKOUT</string>
+    <string name="one_to_thirty">1&#8211;30</string>
+    <string name="thirtyone_to_sixty">31&#8211;60</string>
+    <string name="sixtyone_to_ninety">61&#8211;90</string>
+    
+    <string name="setup">Setup</string>
+    <string name="number_of_workout_days_text">How many days a week do you want to workout?</string>
+    <string name="three_days">3</string>
+    <string name="four_days">4</string>
+    <string name="five_days">5</string>
+    <string name="six_days">6</string>
+    
+    <string name="day_30">30</string>
+    <string name="day_60">60</string>
+    <string name="day_90">90</string>
+    <string name="days">DAYS</string>
+    
+    <string name="workout_detail_title">Upper Body Day</string>
+    <string name="workout_detail_notes">Note: If you can\'t perform them on your feet do them from your knees</string>
+    <string name="workout_detail_repetitions">2 SETS | 12 REPS</string>
+    
+    <string name="settings">Settings</string>
+    <string name="reset">Reset</string>
+    <string name="restore">Restore</string>
+    
+    <string name="purchase">PURCHASE</string>
+    <string name="purchase_it">PURCHASE IT</string>
+    
+    <string name="see_video">SEE VIDEO</string>
+    
+    <string name="workout_complete">WORKOUT COMPLETE</string>
+    <string name="workout_complete_normal">Workout Complete</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="share">Share:</string>
+    <string name="twitter">TWITTER</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="twitter_normal">twitter</string>
+    <string name="facebook_normal">facebook</string>
+    <string name="fuel_points_burned">Fuel Points Burned:</string>
+    <string name="lbs">lbs</string>
+    <string name="was_complete">WAS COMPLETE</string>
+    <string name="update_your_weight">Update your current weight:</string>
+    
+    <string name="day_complete">DAY %s</string>
+    <string name="completed">completed</string>
+    <string name="post_message">Just completed day %s of Gorilla Weight Lifting</string>
+    <string name="default_weight">125</string>
+    
+    <string name="update_weight_note">Please enter your current weight so we can calculate the Fuel Points you\'ve burned after each workout. Fuel Points can be used for tracking your results and obtaining discounts on FXP premium workout programs.</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- SETTINGS -->
+    <string-array name="setting_list">
+        <item>Fuel Points</item>
+        <item>Reset/Restore Workouts</item>
+    </string-array>
+    
+    <!-- FUELS -->
+    <string-array name="fuel_list">
+        <item>30</item>
+        <item>60</item>
+        <item>90</item>
+    </string-array>
+    
+    <!-- Determine screen size -->
+    <string name="screen_size">5</string>
+</resources>

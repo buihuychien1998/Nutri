@@ -1,0 +1,1246 @@
+<workouts>
+    <workout name="15 Day Challenge" purchaseId="15_day_challenge">
+        <purchaseDescription>
+            Welcome to the FXP Hula Hoop® 15 Day Challenge! This Fitness Challenge has been created for those who are just getting started on their fitness journey and who want to burn fuel, tone muscles, and sculpt their entire body!
+            
+			This Challenge is made up of a variety of low-impact, high intensity exercises that consistently promote optimal caloric burn through a variety of proven exercises!
+			
+			Purchase our 15 Day Challenge Today and get access to our proven workouts that will help you burn fuel, enable you to track points, stay motivated, and get those results you desire!
+        </purchaseDescription>
+        <day name="1">
+            <title>Total Body Sculpt Workout</title>
+            <description>Congratulations! Today you start your 15 - Day FXP Hula Hoop Challenge! Today your goal is to work it out with this Total Body Tone segment. You will be challenged to keep your core muscles engaged through out the workout. You will have many different exercises in this workout that promote sculpting of your arms, abs, thighs, and glutes while you keep them engaged while utilizing the FXP Hula Hoop for added Strenghtening and Stability.</description>
+            <completeDescription>Congratulations! You just completed today's Total Body Tone session! While burning fuels, you targeted the muscles of the thighs, glutes, arms and abs.  Keep up the Great Work! See you tomorrow for your Cardio Burn session!</completeDescription>
+            <exercises>
+                <exercise name="Waist Hooping - Basic Stance - Dominate Leg Forward">
+                    <block>Cardio</block>
+                    <setOrRep>3 minutes</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>3</time>
+                </exercise>
+                <exercise name="Sumo Squats">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps each move - each direction</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Sumo Squats with Torso Rotation">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps each move - each direction</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Wide 2nd Plie' with Heel Lift">
+                    <block>Thigh</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to tone and sculpt the thighs and calves while activating the abdominals as you curl.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Wide 2nd Plie' with Oblique Curls">
+                    <block>Thigh</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to tone and sculpt the thighs and calves while activating the abdominals as you curl.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="T-Back Kick">
+                    <block>Glute</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="T-Back Cross Overs">
+                    <block>Glute</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Zip It">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Zip It Up">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Tone the Triceps">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Tone the Triceps with Balance">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Reach for the Stars">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Thigh Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Figure 4 Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Warrior Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Dancer">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+            </exercises>
+        </day>
+        
+        <day name="2">
+            <title>Thigh and Glutes</title>
+            <description>Today your goal is to work out with this Thighs and Glutes segment. After a quick warm up you will begin sculpting your Thighs and Glutes while engaging the core muscles as well.  We will utilize the FXP Hula Hoop for added Strenghtening and Stability.</description>
+            <completeDescription>Congratulations! You just completed today's Thighs and Glutes session! During this workout you toned and sculpted the thighs and glutes.  Keep up the Great Work! See you tomorrow for your  Cardio Hoop HIIT!</completeDescription>
+            <exercises>
+                <exercise name="Waist Hooping - Basic Stance - Dominate Leg Forward">
+                    <block>Cardio</block>
+                    <setOrRep>3 minutes</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>3</time>
+                </exercise>
+                <exercise name="Wide 2nd Plie'">
+                    <block>Thigh</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to tone and sculpt the thighs.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Wide 2nd Plie' with Heel Lift">
+                    <block>Thigh</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to tone and Sculpt the thighs and calves.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Dust the Table">
+                    <block>Glutes</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Sumo Squats">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps each move - each direction</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Sumo Squats with Torso Rotation">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps each move - each direction</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="T-Back Kick">
+                    <block>Glute</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="T-Back Cross Overs">
+                    <block>Glute</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Thigh Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the muscles of the thighs, hips and outer thighs.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Figure 4 Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the muscles of the thighs, hips and outer thighs.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Warrior Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+            </exercises>
+        </day>
+        
+        <day name="3">
+            <title>Abs and Arms</title>
+            <description>Today your goal is to work it out with this Arms and Abs segment. After a quick warm up you will engage your abdominals and sculpt your arms and shoulders, while utilizing the FXP Hula Hoop for added Strenghtening and Stability.</description>
+            <completeDescription>Congratulations! You just completed today's Abs and Arms session!   These moves targeted the upper body. Sculpting and defining the arms, shoulders and abs. Keep up the Great Work! See you tomorrow for your Cardio Hoop HIIT session!</completeDescription>
+            <exercises>
+                <exercise name="Waist Hooping - Plie' Stance">
+                    <block>Cardio</block>
+                    <setOrRep>4 minutes </setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>4</time>
+                </exercise>
+                <exercise name="Zip It">
+                    <block>arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Zip It Up">
+                    <block>arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Tone the Triceps">
+                    <block>arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Reach for the Stars">
+                    <block>Arms, Abs</block>
+                    <setOrRep>8 reps, each leg</setOrRep>
+                    <note>This exercise is meant to challenge your core muscles for balance.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Hi C">
+                    <block>Arms, Abs</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to  strengthen and tone your abdominals while sculpting the arms and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Hi C with Leg Lift">
+                    <block>Arms, Abs</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to  strengthen and tone your abdominals while sculpting the arms and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Thigh Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Figure 4 Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Warrior Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+            </exercises>
+        </day>
+        
+        <day name="4">
+            <title>Cardio Hoop HIIT</title>
+            <description>Today your goal is to work out with this Cardio Hoop HIIT segment. You will be challenged to keep your core muscles engaged through out the workout. In addition to igniting the metabolism you will tone and sculpt the muscles of your lower body.</description>
+            <completeDescription>Congratulations! You just completed today's Cardio Hoop HIIT session! During this workout you burned some serious fuel as well as toned the thighs and glutes.  Keep up the Great Work! See you tomorrow for your Cardio Hoop HIIT session!</completeDescription>
+            <exercises>
+                <exercise name="Waist Hooping - Plie' Stance">
+                    <block>Cardio</block>
+                    <setOrRep>4 minutes</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>4</time>
+                </exercise>
+                <exercise name="Water Skier">
+                    <block>Thigh</block>
+                    <setOrRep>8 reps, each leg</setOrRep>
+                    <note>This exercise is meant to sculpt and tone the thighs and calves while challenging your abdominals for balance.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Water Skier with Lean Back">
+                    <block>Thigh</block>
+                    <setOrRep>8 reps, each leg</setOrRep>
+                    <note>This exercise is meant to sculpt and tone the thighs and calves while challenging your abdominals for balance.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Water Skier with Oblique Curls">
+                    <block>Thigh</block>
+                    <setOrRep>8 reps, each leg</setOrRep>
+                    <note>This exercise is meant to sculpt and tone the thighs and calves while challenging your abdominals for balance.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Picking Apples">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps, each side</setOrRep>
+                    <note>This cardio exercise is meant to -increase your heartrate for maximum caloric burn.  You will tone your thighs as well as engage your core muscles.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Speed Skater">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps, each side</setOrRep>
+                    <note>This cardio exercise is meant to -increase your heartrate for maximum caloric burn.  You will tone your thighs as well as engage your core muscles.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Dust the Table">
+                    <block>Glute</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Dust the Table with Foot Flexed">
+                    <block>Glute</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Thigh Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Figure 4 Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Warrior Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+            </exercises>
+        </day>
+        
+        <day name="5">
+            <title>Cardio Burn + Arms and Abs</title>
+            <description>Today your goal is to work out with this Cardio Burn plus  Arms and Abs segment. After a fuel blasting warm up you will engage your abdominals and sculpt your arms and shoulders, while utilizing the FXP Hula Hoop for added Strenghtening and Stability.</description>
+            <completeDescription>Congratulations! You just completed today's Cardio Burn plus Arms and Abs session!  These moves targeted the upper body. Sculpting and defining the arms, shoulders and abs plus burned major fuels. Keep up the Great Work! See you tomorrow for your Cardio Hoop HIIT session!</completeDescription>
+            <exercises>
+                <exercise name="Waist Hooping - Plie' Stance">
+                    <block>Cardio</block>
+                    <setOrRep>4 minutes</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>4</time>
+                </exercise>
+                <exercise name="Picking Apples">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps each move - each side</setOrRep>
+                    <note>This cardio exercise is meant to increase your heartrate for maximum caloric burn.  You will tone your thighs as well as engage your core muscles.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Speed Skater">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps each move - each side</setOrRep>
+                    <note>This cardio exercise is meant to increase your heartrate for maximum caloric burn.  You will tone your thighs as well as engage your core muscles.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Zip It">
+                    <block>Arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Zip It Up">
+                    <block>Arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Tone the Triceps">
+                    <block>Arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Tone the Triceps with Balance">
+                    <block>Arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Reach for the Stars">
+                    <block>Arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Wring It Out">
+                    <block>Abs</block>
+                    <setOrRep>8 reps each</setOrRep>
+                    <note>This exercise is meant to strengthen and tone the muscles of the deep abdominals.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="The Teaser">
+                    <block>Abs</block>
+                    <setOrRep>8 reps each</setOrRep>
+                    <note>This exercise is meant to strengthen and tone the muscles of the deep abdominals.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Thigh Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Figure 4 Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Warrior Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Dancer">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+            </exercises>
+        </day>
+        
+        <day name="6">
+            <title>Total Body Sculpt Workout</title>
+            <description>Today your goal is to work it out with this Total Body Tone segment. You will be challenged to keep your core muscles engaged through out the workout. You will have many different exercises in this workout that promote sculpting of your arms, abs, thighs, and glutes while you keep them engaged while utilizing the FXP Hula Hoop for added Strenghtening and Stability.</description>
+            <completeDescription>Congratulations! You just completed today's Total Body Tone session! While burning fuels, you targeted the muscles of the thighs, glutes, arms and abs.  Keep up the Great Work! See you tomorrow for your Cardio Burn session!</completeDescription>
+            <exercises>
+                <exercise name="Waist Hooping - Basic Stance - Dominate Leg Forward">
+                    <block>Cardio</block>
+                    <setOrRep>3 minutes</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>3</time>
+                </exercise>
+                <exercise name="Sumo Squats">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps each move - each direction</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Sumo Squats with Torso Rotation">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps each move - each direction</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Wide 2nd Plie' with Heel Lift">
+                    <block>Thigh</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to tone and sculpt the thighs and calves while activating the abdominals as you curl.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Wide 2nd Plie' with Oblique Curls">
+                    <block>Thigh</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to tone and sculpt the thighs and calves while activating the abdominals as you curl.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="T-Back Kick">
+                    <block>Glute</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="T-Back Cross Overs">
+                    <block>Glute</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Zip It">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Zip It Up">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Tone the Triceps">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Tone the Triceps with Balance">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Reach for the Stars">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Thigh Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Figure 4 Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Warrior Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Dancer">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+            </exercises>
+        </day>
+        
+        <day name="7">
+            <title>Thigh and Glutes</title>
+            <description>Today your goal is to work out with this Thighs and Glutes segment. After a quick warm up you will begin sculpting your Thighs and Glutes while engaging the core muscles as well.  We will utilize the FXP Hula Hoop for added Strenghtening and Stability.</description>
+            <completeDescription>Congratulations! You just completed today's Thighs and Glutes session! During this workout you toned and sculpted the thighs and glutes.  Keep up the Great Work! See you tomorrow for your  Cardio Hoop HIIT!</completeDescription>
+            <exercises>
+                <exercise name="Waist Hooping - Basic Stance - Dominate Leg Forward">
+                    <block>Cardio</block>
+                    <setOrRep>3 minutes</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>3</time>
+                </exercise>
+                <exercise name="Wide 2nd Plie'">
+                    <block>Thigh</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to tone and sculpt the thighs.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Wide 2nd Plie' with Heel Lift">
+                    <block>Thigh</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to tone and Sculpt the thighs and calves.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Dust the Table">
+                    <block>Glutes</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Sumo Squats">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps each move - each direction</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Sumo Squats with Torso Rotation">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps each move - each direction</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="T-Back Kick">
+                    <block>Glute</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="T-Back Cross Overs">
+                    <block>Glute</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Thigh Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the muscles of the thighs, hips and outer thighs.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Figure 4 Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the muscles of the thighs, hips and outer thighs.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Warrior Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+            </exercises>
+        </day>
+        
+        <day name="8">
+            <title>Abs and Arms</title>
+            <description>Today your goal is to work it out with this Arms and Abs segment. After a quick warm up you will engage your abdominals and sculpt your arms and shoulders, while utilizing the FXP Hula Hoop for added Strenghtening and Stability.</description>
+            <completeDescription>Congratulations! You just completed today's Abs and Arms session!   These moves targeted the upper body. Sculpting and defining the arms, shoulders and abs. Keep up the Great Work! See you tomorrow for your Cardio Hoop HIIT session!</completeDescription>
+            <exercises>
+                <exercise name="Waist Hooping - Plie' Stance">
+                    <block>Cardio</block>
+                    <setOrRep>4 minutes</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>4</time>
+                </exercise>
+                <exercise name="Zip It">
+                    <block>arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Zip It Up">
+                    <block>arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Tone the Triceps">
+                    <block>arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Reach for the Stars">
+                    <block>Arms, Abs</block>
+                    <setOrRep>8 reps, each leg</setOrRep>
+                    <note>This exercise is meant to challenge your core muscles for balance.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Hi C">
+                    <block>Arms, Abs</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to  strengthen and tone your abdominals while sculpting the arms and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Hi C with Leg Lift">
+                    <block>Arms, Abs</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to  strengthen and tone your abdominals while sculpting the arms and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Thigh Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Figure 4 Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Warrior Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+            </exercises>
+        </day>
+        
+        <day name="9">
+            <title>Cardio Hoop HIIT</title>
+            <description>Today your goal is to work out with this Cardio Hoop HIIT segment. You will be challenged to keep your core muscles engaged through out the workout. In addition to igniting the metabolism you will tone and sculpt the muscles of your lower body.</description>
+            <completeDescription>Congratulations! You just completed today's Cardio Hoop HIIT session! During this workout you burned some serious fuel as well as toned the thighs and glutes.  Keep up the Great Work! See you tomorrow for your Cardio Hoop HIIT session!</completeDescription>
+            <exercises>
+                <exercise name="Waist Hooping - Plie' Stance">
+                    <block>Cardio</block>
+                    <setOrRep>4 minutes</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>4</time>
+                </exercise>
+                <exercise name="Water Skier">
+                    <block>Thigh</block>
+                    <setOrRep>8 reps, each leg</setOrRep>
+                    <note>This exercise is meant to sculpt and tone the thighs and calves while challenging your abdominals for balance.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Water Skier with Lean Back">
+                    <block>Thigh</block>
+                    <setOrRep>8 reps, each leg</setOrRep>
+                    <note>This exercise is meant to sculpt and tone the thighs and calves while challenging your abdominals for balance.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Water Skier with Oblique Curls">
+                    <block>Thigh</block>
+                    <setOrRep>8 reps, each leg</setOrRep>
+                    <note>This exercise is meant to sculpt and tone the thighs and calves while challenging your abdominals for balance.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Picking Apples">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps, each side</setOrRep>
+                    <note>This cardio exercise is meant to -increase your heartrate for maximum caloric burn.  You will tone your thighs as well as engage your core muscles.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Speed Skater">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps, each side</setOrRep>
+                    <note>This cardio exercise is meant to -increase your heartrate for maximum caloric burn.  You will tone your thighs as well as engage your core muscles.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Dust the Table">
+                    <block>Glute</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Dust the Table with Foot Flexed">
+                    <block>Glute</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Thigh Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to sculpt and tone the thighs and calves while challenging your abdominals for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Figure 4 Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to sculpt and tone the thighs and calves while challenging your abdominals for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Warrior Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to sculpt and tone the thighs and calves while challenging your abdominals for balance.</note>
+                    <time>1</time>
+                </exercise>
+            </exercises>
+        </day>
+        
+        <day name="10">
+            <title>Cardio Burn + Arms and Abs</title>
+            <description>Today your goal is to work out with this Cardio Burn plus  Arms and Abs segment. After a fuel blasting warm up you will engage your abdominals and sculpt your arms and shoulders, while utilizing the FXP Hula Hoop for added Strenghtening and Stability.</description>
+            <completeDescription>Congratulations! You just completed today's Cardio Burn plus Arms and Abs session!  These moves targeted the upper body. Sculpting and defining the arms, shoulders and abs plus burned major fuels. Keep up the Great Work! See you tomorrow for your Cardio Hoop HIIT session!</completeDescription>
+            <exercises>
+                <exercise name="Waist Hooping - Plie' Stance">
+                    <block>Cardio</block>
+                    <setOrRep>4 minutes</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>4</time>
+                </exercise>
+                <exercise name="Picking Apples">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps each move - each side</setOrRep>
+                    <note>This cardio exercise is meant to increase your heartrate for maximum caloric burn.  You will tone your thighs as well as engage your core muscles.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Speed Skater">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps each move - each side</setOrRep>
+                    <note>This cardio exercise is meant to increase your heartrate for maximum caloric burn.  You will tone your thighs as well as engage your core muscles.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Zip It">
+                    <block>Arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Zip It Up">
+                    <block>Arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Tone the Triceps">
+                    <block>Arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Tone the Triceps with Balance">
+                    <block>Arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Reach for the Stars">
+                    <block>Arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Wring It Out">
+                    <block>Abs</block>
+                    <setOrRep>8 reps each</setOrRep>
+                    <note>This exercise is meant to strengthen and tone the muscles of the deep abdominals.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="The Teaser">
+                    <block>Abs</block>
+                    <setOrRep>8 reps each</setOrRep>
+                    <note>This exercise is meant to strengthen and tone the muscles of the deep abdominals.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Thigh Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Figure 4 Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Warrior Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Dancer">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+            </exercises>
+        </day>
+        
+        <day name="11">
+            <title>Total Body Sculpt Workout</title>
+            <description>Today your goal is to work it out with this Total Body Tone segment. You will be challenged to keep your core muscles engaged through out the workout. You will have many different exercises in this workout that promote sculpting of your arms, abs, thighs, and glutes while you keep them engaged while utilizing the FXP Hula Hoop for added Strenghtening and Stability.</description>
+            <completeDescription>Congratulations! You just completed today's Total Body Tone session! While burning fuels, you targeted the muscles of the thighs, glutes, arms and abs.  Keep up the Great Work! See you tomorrow for your Cardio Burn session!</completeDescription>
+            <exercises>
+                <exercise name="Waist Hooping - Basic Stance - Dominate Leg Forward">
+                    <block>Cardio</block>
+                    <setOrRep>3 minutes</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>3</time>
+                </exercise>
+                <exercise name="Sumo Squats">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps each move - each direction</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Sumo Squats with Torso Rotation">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps each move - each direction</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Wide 2nd Plie' with Heel Lift">
+                    <block>Thigh</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to tone and sculpt the thighs and calves while activating the abdominals as you curl.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Wide 2nd Plie' with Oblique Curls">
+                    <block>Thigh</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to tone and sculpt the thighs and calves while activating the abdominals as you curl.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="T-Back Kick">
+                    <block>Glute</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="T-Back Cross Overs">
+                    <block>Glute</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Zip It">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Zip It Up">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Tone the Triceps">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Tone the Triceps with Balance">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Reach for the Stars">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Thigh Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Figure 4 Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Warrior Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to tone and sculpt the thighs and calves while activating the abdominals as you curl.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Dancer">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to tone and sculpt the thighs and calves while activating the abdominals as you curl.</note>
+                    <time>1</time>
+                </exercise>
+            </exercises>
+        </day>
+        
+        <day name="12">
+            <title>Thigh and Glutes</title>
+            <description>Today your goal is to work out with this Thighs and Glutes segment. After a quick warm up you will begin sculpting your Thighs and Glutes while engaging the core muscles as well.  We will utilize the FXP Hula Hoop for added Strenghtening and Stability.</description>
+            <completeDescription>Congratulations! You just completed today's Thighs and Glutes session! During this workout you toned and sculpted the thighs and glutes.  Keep up the Great Work! See you tomorrow for your  Cardio Hoop HIIT!</completeDescription>
+            <exercises>
+                <exercise name="Waist Hooping - Basic Stance - Dominate Leg Forward">
+                    <block>Cardio</block>
+                    <setOrRep>3 minutes</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>3</time>
+                </exercise>
+                <exercise name="Wide 2nd Plie'">
+                    <block>Thigh</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to tone and sculpt the thighs.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Wide 2nd Plie' with Heel Lift">
+                    <block>Thigh</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to tone and Sculpt the thighs and calves.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Dust the Table">
+                    <block>Glutes</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Sumo Squats">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps each move - each direction</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Sumo Squats with Torso Rotation">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps each move - each direction</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="T-Back Kick">
+                    <block>Glute</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="T-Back Cross Overs">
+                    <block>Glute</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Thigh Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the muscles of the thighs, hips and outer thighs.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Figure 4 Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the muscles of the thighs, hips and outer thighs.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Warrior Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+            </exercises>
+        </day>
+        
+        <day name="13">
+            <title>Abs and Arms</title>
+            <description>Today your goal is to work it out with this Arms and Abs segment. After a quick warm up you will engage your abdominals and sculpt your arms and shoulders, while utilizing the FXP Hula Hoop for added Strenghtening and Stability.</description>
+            <completeDescription>Congratulations! You just completed today's Abs and Arms session!   These moves targeted the upper body. Sculpting and defining the arms, shoulders and abs. Keep up the Great Work! See you tomorrow for your Cardio Hoop HIIT session!</completeDescription>
+            <exercises>
+                <exercise name="Waist Hooping - Plie' Stance">
+                    <block>Cardio</block>
+                    <setOrRep>4 minutes </setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>4</time>
+                </exercise>
+                <exercise name="Zip It">
+                    <block>arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Zip It Up">
+                    <block>arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Tone the Triceps">
+                    <block>arms</block>
+                    <setOrRep>8 reps</setOrRep>
+                    <note>This exercise is meant to strengthen and tone your abdominals.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Reach for the Stars">
+                    <block>Arms, Abs</block>
+                    <setOrRep>8 reps, each leg</setOrRep>
+                    <note>This exercise is meant to challenge your core muscles for balance.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Hi C">
+                    <block>Arms, Abs</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to  strengthen and tone your abdominals while sculpting the arms and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Hi C with Leg Lift">
+                    <block>Arms, Abs</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to  strengthen and tone your abdominals while sculpting the arms and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Thigh Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Figure 4 Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Warrior Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+            </exercises>
+        </day>
+        
+        <day name="14">
+            <title>Cardio Hoop HIIT</title>
+            <description>Today your goal is to work out with this Cardio Hoop HIIT segment. You will be challenged to keep your core muscles engaged through out the workout. In addition to igniting the metabolism you will tone and sculpt the muscles of your lower body.</description>
+            <completeDescription>Congratulations! You just completed today's Cardio Hoop HIIT session! During this workout you burned some serious fuel as well as toned the thighs and glutes.  Keep up the Great Work! See you tomorrow for your Cardio Hoop HIIT session!</completeDescription>
+            <exercises>
+                <exercise name="Waist Hooping - Plie' Stance">
+                    <block>Cardio</block>
+                    <setOrRep>4 minutes</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>4</time>
+                </exercise>
+                <exercise name="Water Skier">
+                    <block>Thigh</block>
+                    <setOrRep>8 reps, each leg</setOrRep>
+                    <note>This exercise is meant to sculpt and tone the thighs and calves while challenging your abdominals for balance.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Water Skier with Lean Back">
+                    <block>Thigh</block>
+                    <setOrRep>8 reps, each leg</setOrRep>
+                    <note>This exercise is meant to sculpt and tone the thighs and calves while challenging your abdominals for balance.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Water Skier with Oblique Curls">
+                    <block>Thigh</block>
+                    <setOrRep>8 reps, each leg</setOrRep>
+                    <note>This exercise is meant to sculpt and tone the thighs and calves while challenging your abdominals for balance.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Picking Apples">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps, each side</setOrRep>
+                    <note>This cardio exercise is meant to -increase your heartrate for maximum caloric burn.  You will tone your thighs as well as engage your core muscles.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Speed Skater">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps, each side</setOrRep>
+                    <note>This cardio exercise is meant to -increase your heartrate for maximum caloric burn.  You will tone your thighs as well as engage your core muscles.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Dust the Table">
+                    <block>Glute</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Dust the Table with Foot Flexed">
+                    <block>Glute</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Thigh Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Figure 4 Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Warrior Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+            </exercises>
+        </day>
+        
+        <day name="15">
+            <title>Cardio Burn + Arms and Abs</title>
+            <description>Today your goal is to work out with this Cardio Burn plus  Arms and Abs segment. After a fuel blasting warm up you will engage your abdominals and sculpt your arms and shoulders, while utilizing the FXP Hula Hoop for added Strenghtening and Stability.</description>
+            <completeDescription>Congratulations! You just completed today's Cardio Burn plus Arms and Abs session!  These moves targeted the upper body with the goal of Sculpting and defining the arms, shoulders and ab. Plus your burned major fuel!  Congratulations, Your 15 day journey is complete! What journey will you embark on next? Check out the other Challenges we have to offer!  Keep up the Great Work! Go online to fxpfitness.com to engage with our community and share your story!</completeDescription>
+            <exercises>
+                <exercise name="Waist Hooping - Plie' Stance">
+                    <block>Cardio</block>
+                    <setOrRep>4 minutes</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+                    <time>4</time>
+                </exercise>
+                <exercise name="Picking Apples">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps each move - each side</setOrRep>
+                    <note>This cardio exercise is meant to increase your heartrate for maximum caloric burn.  You will tone your thighs as well as engage your core muscles.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Speed Skater">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps each move - each side</setOrRep>
+                    <note>This cardio exercise is meant to increase your heartrate for maximum caloric burn.  You will tone your thighs as well as engage your core muscles.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Zip It">
+                    <block>Arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Zip It Up">
+                    <block>Arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Tone the Triceps">
+                    <block>Arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Tone the Triceps with Balance">
+                    <block>Arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Reach for the Stars">
+                    <block>Arms</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to activate your core muscles as you tone and sculpt your arms, chest and shoulders.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Wring It Out">
+                    <block>Abs</block>
+                    <setOrRep>8 reps each</setOrRep>
+                    <note>This exercise is meant to strengthen and tone the muscles of the deep abdominals.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="The Teaser">
+                    <block>Abs</block>
+                    <setOrRep>8 reps each</setOrRep>
+                    <note>This exercise is meant to strengthen and tone the muscles of the deep abdominals.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Thigh Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Figure 4 Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Warrior Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Dancer">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>
+            </exercises>
+        </day>                
+    </workout>
+</workouts>

@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/top_background"
+        android:paddingBottom="@dimen/top_layout_padding"
+        android:paddingLeft="@dimen/top_layout_margin"
+        android:paddingRight="@dimen/top_layout_margin"
+        android:paddingTop="@dimen/top_layout_padding" >
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/arrow_back" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/title_margin"
+            android:layout_marginRight="@dimen/title_margin"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="@string/exercises"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/title_font_size" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/list_item_padding"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/btnProceed_bottom_margin" >
+
+        <RelativeLayout
+            android:id="@+id/layoutSample"
+            android:layout_width="@dimen/sample_layout_width"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imgSample"
+                android:layout_width="@dimen/sample_image_width"
+                android:layout_height="@dimen/sample_image_height"
+                android:contentDescription="@string/app_name"
+                android:layout_centerInParent="true"
+                android:src="@drawable/thumb1" />
+
+            <ImageView
+                android:id="@+id/imgPrev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/workout_detail_list_item_padding_top"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/arrow_left" />
+
+            <ImageView
+                android:id="@+id/imgNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/workout_detail_list_item_padding_top"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/arrow_right" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:id="@+id/scrContents"
+            android:layout_width="@dimen/exercise_contents_width"
+            android:layout_height="0dp"
+            android:layout_margin="@dimen/list_item_padding"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/txtContents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/exercises"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/sub_row_name" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btnVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/list_item_padding"
+            android:layout_marginTop="@dimen/list_item_padding"
+            android:background="@drawable/see_video_button"
+            android:contentDescription="@string/app_name"
+            android:paddingLeft="@dimen/btn_padding"
+            android:text="@string/see_video"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/btn_font_size" />
+    </LinearLayout>
+
+</LinearLayout>

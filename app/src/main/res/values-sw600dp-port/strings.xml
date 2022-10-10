@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Determine screen size -->
+    <string name="screen_size">7</string>
+</resources>

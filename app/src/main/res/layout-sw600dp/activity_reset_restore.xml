@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/top_background"
+        android:paddingBottom="@dimen/top_layout_padding"
+        android:paddingLeft="@dimen/top_layout_margin"
+        android:paddingRight="@dimen/top_layout_margin"
+        android:paddingTop="@dimen/top_layout_padding" >
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/arrow_back" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/workouts_normal"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/title_font_size" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/list_bottom_margin"
+        android:layout_marginTop="@dimen/list_bottom_margin"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="@drawable/reset_button"
+            android:contentDescription="@string/app_name"
+            android:text="@string/reset"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/gorilla_menu_sub" />
+
+        <Button
+            android:id="@+id/btnRestore"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="@drawable/restore_button"
+            android:contentDescription="@string/app_name"
+            android:text="@string/restore"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/gorilla_menu_sub" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/resetRestores"
+        android:layout_width="@dimen/menu_item_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/hula_icon_bottom_margin"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="@dimen/divider_height"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" />
+
+</LinearLayout>

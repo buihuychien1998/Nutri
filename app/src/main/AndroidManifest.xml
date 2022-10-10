@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.scopic.fxp"
+    android:versionCode="2"
+    android:versionName="1.0" >
+
+<!--    <uses-sdk-->
+<!--        android:minSdkVersion="9"-->
+<!--        android:targetSdkVersion="19" />-->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:name="com.scopic.fxp.FxpApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ui.screen.ActivitySplash"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            tools:ignore="Instantiatable"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.screen.ActivityMain"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+            tools:ignore="Instantiatable">
+        </activity>
+        <activity
+            android:name=".ui.screen.ActivityVideoDemo"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name=".twitter.PrepareRequestTokenActivity"
+            android:launchMode="singleTask"
+            tools:ignore="ExportedActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="callback"
+                    android:scheme="x-oauthflow-twitter" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.screen.ActivityExerciseList"
+            tools:ignore="Instantiatable">
+        </activity>
+        <activity android:name=".ui.screen.ActivityFuelList"
+            tools:ignore="Instantiatable">
+        </activity>
+        <activity android:name=".ui.screen.ActivityMainWorkoutList"
+            tools:ignore="Instantiatable">
+        </activity>
+        <activity android:name=".ui.screen.ActivityMenu" >
+        </activity>
+        <activity android:name=".ui.screen.ActivityNutritionList"
+            tools:ignore="Instantiatable">
+        </activity>
+        <activity android:name=".ui.screen.ActivityPremiumWorkoutList"
+            tools:ignore="Instantiatable">
+        </activity>
+        <activity android:name=".ui.screen.ActivitySettings"
+            tools:ignore="Instantiatable">
+        </activity>
+        <activity android:name=".ui.screen.ActivityResetRestoreList"
+            tools:ignore="Instantiatable">
+        </activity>
+        <activity android:name=".ui.screen.ActivityExerciseDetail"
+            tools:ignore="Instantiatable">
+        </activity>
+        <activity android:name=".ui.screen.ActivityNutritionDetail"
+            tools:ignore="Instantiatable">
+        </activity>
+        <activity android:name=".ui.screen.ActivityWorkoutDetail"
+            tools:ignore="Instantiatable">
+        </activity>
+        <activity android:name=".ui.screen.ActivityWorkoutComplete"
+            tools:ignore="Instantiatable">
+        </activity>
+        <activity android:name=".ui.screen.ActivityWorkoutSelect"
+            tools:ignore="Instantiatable">
+        </activity>
+    </application>
+
+</manifest>

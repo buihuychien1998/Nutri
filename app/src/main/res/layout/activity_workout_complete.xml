@@ -1,0 +1,238 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/top_layout_margin"
+        android:layout_marginRight="@dimen/top_layout_margin"
+        android:paddingBottom="@dimen/top_layout_padding"
+        android:paddingTop="@dimen/top_layout_padding" >
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/arrow_back" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/workout_complete_normal"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/title_font_size" />
+
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/share_button"
+            android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/background_padding_top"
+        android:background="@drawable/bkg_content_workout_complete_scr"
+        android:paddingBottom="@dimen/btnProceed_bottom_margin" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/layoutComplete"
+            android:paddingTop="@dimen/workout_detail_list_item_padding" >
+
+            <TextView
+                android:id="@+id/txtCongratulation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/congratulations"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/title_font_size" />
+
+            <RelativeLayout
+                android:id="@+id/layoutCycle"
+                android:layout_width="@dimen/cycle_width"
+                android:layout_height="@dimen/cycle_height"
+                android:layout_below="@+id/txtCongratulation"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/workout_detail_list_item_padding_top"
+                android:background="@drawable/workout_complete_screen_completed_icon" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" >
+
+                    <TextView
+                        android:id="@+id/txtDay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:text="@string/day_complete"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/title_font_size" />
+
+                    <TextView
+                        android:id="@+id/txtComplete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txtDay"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:text="@string/completed"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/sub_row_name" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/layoutFuel"
+                android:layout_below="@+id/layoutCycle" >
+
+                <TextView
+                    android:id="@+id/txtCompleteNote"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/workout_complete_note_margin"
+                    android:layout_marginLeft="@dimen/workout_detail_list_item_padding"
+                    android:layout_marginRight="@dimen/workout_detail_list_item_padding"
+                    android:layout_marginTop="@dimen/workout_complete_note_margin"
+                    android:gravity="center"
+                    android:text="@string/lbs"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/complete_note" />
+            </ScrollView>
+
+            <LinearLayout
+                android:id="@+id/layoutFuel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/btnProceed_bottom_margin"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/imgClock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/clock_fuel_point_scr" />
+
+                <TextView
+                    android:id="@+id/txtFuel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/congrats_text_margin"
+                    android:gravity="center"
+                    android:text="@string/fuel_points_burned"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/fuel_point_text" />
+
+                <TextView
+                    android:id="@+id/txtPoint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/congrats_text_margin"
+                    android:gravity="center"
+                    android:text="@string/thirtyone_to_sixty"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/day_complete" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imgDivider"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/divider_height"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="@dimen/btnProceed_bottom_margin"
+                android:contentDescription="@string/app_name"
+                android:src="@color/line_divider" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutComplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="@dimen/lbs_padding" >
+
+            <TextView
+                android:id="@+id/txtUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="@string/update_your_weight"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/main_row_name" />
+
+            <LinearLayout
+                android:id="@+id/layoutWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtUpdate"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/lbs_padding_small"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/edtWeight"
+                    android:layout_width="@dimen/weight_edt_width"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/weight_background"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/main_row_name" />
+
+                <TextView
+                    android:id="@+id/txtLbs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/lbs_padding_small"
+                    android:gravity="center"
+                    android:text="@string/lbs"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/main_row_name" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnDone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layoutWeight"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/lbs_padding_small"
+                android:background="@drawable/complete_button"
+                android:contentDescription="@string/app_name"
+                android:text="@string/done"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/btn_font_size" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutGorilla"
+    android:layout_width="@dimen/menu_item_width"
+    android:layout_height="@dimen/menu_item_height"
+    android:background="@drawable/exercises_item_background"
+    android:paddingBottom="@dimen/layoutGorilla_top_margin"
+    android:paddingTop="@dimen/layoutGorilla_top_margin" >
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="@dimen/list_item_width"
+        android:layout_height="@dimen/list_item_height"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/thumbnail_margin_top"
+        android:layout_marginLeft="@dimen/thumbnail_margin_left"
+        android:layout_marginTop="@dimen/thumbnail_margin_top"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/photo2_icon_nutrition_guide_scr" />
+
+    <LinearLayout
+        android:id="@+id/layoutName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/text_margin_left"
+        android:layout_toLeftOf="@+id/imgArrow"
+        android:layout_toRightOf="@+id/imgLogo"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/premium"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/main_row_name" />
+
+        <TextView
+            android:id="@+id/txtSubName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/workouts"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sub_row_name" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/arrow_right_margin"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/arrow_right" />
+
+</RelativeLayout>

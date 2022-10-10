@@ -1,0 +1,154 @@
+<resources>
+
+    <!-- constants -->
+    <dimen name="one">1dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    
+    <!-- common -->
+    <dimen name="main_row_name">25sp</dimen>
+    <dimen name="sub_row_name">15sp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="list_padding">15dp</dimen>
+    <dimen name="list_padding_settings">25dp</dimen>
+    <dimen name="menu_margin">2dp</dimen>
+    <dimen name="complete_note">13sp</dimen>
+    <dimen name="sub_row_name_large">20sp</dimen>
+
+    <!-- Splash -->
+    <dimen name="progress_width">30dp</dimen>
+    <dimen name="progress_height">30dp</dimen>
+    <dimen name="bottom_view_height">60dp</dimen>
+    <dimen name="loading_margin_top">10dp</dimen>
+    <dimen name="loading">15sp</dimen>
+
+    <!-- Menu bar -->
+    <dimen name="menu_padding_top_bottom">15dp</dimen>
+
+    <!-- Main Menu screen -->
+    <dimen name="gorilla_logo_margin">10dp</dimen>
+    <dimen name="layoutGorilla_top_margin">1dp</dimen>
+    <dimen name="thumbnail_margin_left">15dp</dimen>
+    <dimen name="thumbnail_margin_top">10dp</dimen>
+    <dimen name="listWorkout_top_margin">15dp</dimen>
+    <dimen name="gorilla_menu">35sp</dimen>
+    <dimen name="gorilla_workout_row">28sp</dimen>
+    <dimen name="gorilla_menu_sub">19sp</dimen>
+    <dimen name="text_margin_left">16dp</dimen>
+    <dimen name="arrow_right_margin">10dp</dimen>
+    <dimen name="menu_row_bottom_margin">7dp</dimen>
+    <dimen name="hula_icon_bottom_margin">60dp</dimen>
+
+    <!-- Header menu -->
+    <dimen name="top_layout_margin">10dp</dimen>
+    <dimen name="title_font_size">30sp</dimen>
+    <dimen name="setting_title_font_size">18sp</dimen>
+    <dimen name="top_layout_padding">15dp</dimen>
+    <dimen name="restore_btn_bottom_margin">130dp</dimen>
+    <dimen name="title_margin">50dp</dimen>
+
+    <!-- Settings screen -->
+    <dimen name="list_item_padding">15dp</dimen>
+    <dimen name="reset_padding">27dp</dimen>
+
+    <!-- Setup screen -->
+    <dimen name="radio_button_top_margin">9dp</dimen>
+
+    <!-- Merch screen -->
+    <dimen name="merch_divider">3dp</dimen>
+    <dimen name="merch_arrow_bottom_margin">5dp</dimen>
+
+    <!-- Select Workout screen -->
+    <dimen name="slider_days">12sp</dimen>
+    <dimen name="slider_right_margin">12dp</dimen>
+    <dimen name="slider_left_margin">16dp</dimen>
+    <dimen name="slider_bar_height">6dp</dimen>
+    <dimen name="arrays_day_padding">2dp</dimen>
+    <dimen name="arrays_days_top_margin">5dp</dimen>
+    <dimen name="arrays_day">16sp</dimen>
+    <dimen name="arrays_day_right_margin">10dp</dimen>
+    <dimen name="day_content_top_margin">4dp</dimen>
+    <dimen name="muscle_region_text_padding">68dp</dimen>
+    <dimen name="muscle_region_text_size">22sp</dimen>
+    <dimen name="training_day_top_margin">22dp</dimen>
+    <dimen name="training_day_text_size">17sp</dimen>
+    <dimen name="start_workout_btn_top_margin">15dp</dimen>
+    <dimen name="workout_progress_height">10dp</dimen>
+    <dimen name="workout_day_height">40dp</dimen>
+    <dimen name="workout_contents">15sp</dimen>
+    <dimen name="scroll_day">10sp</dimen>
+    <dimen name="scroll_day_padding">1dp</dimen>
+    <dimen name="contents_padding_top">20dp</dimen>
+    <dimen name="fuel_point_text">20sp</dimen>
+    <dimen name="workout_select_title">22sp</dimen>
+
+    <!-- Workout complete -->
+    <dimen name="congrats_text_margin">8dp</dimen>
+    <dimen name="day_complete">26sp</dimen>
+    <dimen name="txtDay_top_margin">50dp</dimen>
+    <dimen name="signature_workout_contents">15sp</dimen>
+    <dimen name="txt_content_margin">10dp</dimen>
+    <dimen name="workout_complete_description_padding">20dp</dimen>
+    <dimen name="share_left_margin">19dp</dimen>
+    <dimen name="share_margine_between">13dp</dimen>
+    <dimen name="share_icon_width">40dp</dimen>
+    <dimen name="share_layout_right_margin">70dp</dimen>
+    <dimen name="share_button">23sp</dimen>
+    <dimen name="share_title">32sp</dimen>
+    <dimen name="done_button_margin_left">30dp</dimen>
+    <dimen name="update_margin_left">100dp</dimen>
+    <dimen name="complete_cycle_padding_bottom">30dp</dimen>
+    <dimen name="day_complete_tablet">75sp</dimen>
+    <dimen name="day_complete_tablet_sub">40sp</dimen>
+    <dimen name="background_padding_top">-15dp</dimen>
+    <dimen name="cycle_width">150dp</dimen>
+    <dimen name="cycle_height">139dp</dimen>
+    <dimen name="workout_complete_note_margin">5dp</dimen>
+
+    <!-- Our Apps -->
+    <dimen name="app_des">15sp</dimen>
+
+    <!-- Setup screen -->
+    <dimen name="btnProceed_bottom_margin">10dp</dimen>
+    <dimen name="list_bottom_margin">30dp</dimen>
+
+    <!-- Workoukt detail screen -->
+    <dimen name="workout_detail_list_item_padding">20dp</dimen>
+    <dimen name="workout_detail_list_item_padding_top">10dp</dimen>
+    <dimen name="lbs_padding">10dp</dimen>
+    <dimen name="lbs_padding_small">5dp</dimen>
+    
+    <!-- Fuel screen -->
+    <dimen name="des_top_margin">55sp</dimen>
+    <dimen name="des_font_size">20sp</dimen>
+    <dimen name="grid_divider">10dp</dimen>
+    
+    <!-- Exercise Detail screen -->
+    <dimen name="btn_padding">-120dp</dimen>
+    <dimen name="btn_font_size">20sp</dimen>
+    
+    <!-- Share Dialog -->
+    <dimen name="dialog_standard_frame_margin_right">30dp</dimen>
+    <dimen name="dialog_standard_frame_margin_top">10dp</dimen>
+    
+    <!-- Buy Dialog -->
+    <dimen name="buy_text_padding">30dp</dimen>
+    
+    <!-- Reset item -->
+    <dimen name="reset_button_width">130dp</dimen>
+    <dimen name="reset_button_height">44dp</dimen>
+
+    <!-- Weight Dialog -->
+    <dimen name="weight_note">14sp</dimen>
+    <dimen name="weight_edt_width">80dp</dimen>
+    <dimen name="weight_padding">10dp</dimen>
+    <dimen name="weight_btn_width">120dp</dimen>
+    <dimen name="weight_btn_left_margin">20dp</dimen>
+    
+    <!-- Seekbar item -->
+    <dimen name="seekbar_padding_left">20dp</dimen>
+    <dimen name="seekbar_padding_right">20dp</dimen>
+    <dimen name="seekbar_thumb_offset">20dp</dimen>
+    
+    <!-- Nutrition item -->
+    <dimen name="nutrion_contents_margin_top">30dp</dimen>
+</resources>

@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/top_layout_margin"
+        android:layout_marginRight="@dimen/top_layout_margin"
+        android:paddingBottom="@dimen/top_layout_padding"
+        android:paddingTop="@dimen/top_layout_padding" >
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/arrow_back" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/title_margin"
+            android:layout_marginRight="@dimen/title_margin"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:scrollHorizontally="true"
+            android:text="@string/workout"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/main_row_name" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bkg_content_workout_complete_scr"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/background_padding_top"
+        android:paddingBottom="@dimen/btnProceed_bottom_margin"
+        android:paddingTop="@dimen/workout_detail_list_item_padding" >
+
+        <ListView
+            android:id="@+id/exercises"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btnComplete"
+            android:background="@drawable/list_background"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@color/line_divider"
+            android:dividerHeight="@dimen/divider_height"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" />
+
+        <Button
+            android:id="@+id/btnComplete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/list_item_padding"
+            android:layout_marginTop="@dimen/btnProceed_bottom_margin"
+            android:background="@drawable/complete_button"
+            android:contentDescription="@string/app_name"
+            android:text="@string/workout_complete"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/btn_font_size" />
+    </RelativeLayout>
+
+</LinearLayout>

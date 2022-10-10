@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.scopic.fxp"
+    android:versionCode="107"
+    android:versionName="20.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="32" />
+
+    <!-- <uses-sdk -->
+    <!-- android:minSdkVersion="9" -->
+    <!-- android:targetSdkVersion="19" /> -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:name="com.scopic.fxp.FxpApp"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.scopic.fxp.ui.screen.ActivitySplash"
+            android:exported="true"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.scopic.fxp.ui.screen.ActivityMain"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.scopic.fxp.ui.screen.ActivityVideoDemo"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.scopic.fxp.twitter.PrepareRequestTokenActivity"
+            android:exported="true"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="callback"
+                    android:scheme="x-oauthflow-twitter" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.scopic.fxp.ui.screen.ActivityExerciseList" >
+        </activity>
+        <activity android:name="com.scopic.fxp.ui.screen.ActivityFuelList" >
+        </activity>
+        <activity android:name="com.scopic.fxp.ui.screen.ActivityMainWorkoutList" >
+        </activity>
+        <activity android:name="com.scopic.fxp.ui.screen.ActivityMenu" >
+        </activity>
+        <activity android:name="com.scopic.fxp.ui.screen.ActivityNutritionList" >
+        </activity>
+        <activity android:name="com.scopic.fxp.ui.screen.ActivityPremiumWorkoutList" >
+        </activity>
+        <activity android:name="com.scopic.fxp.ui.screen.ActivitySettings" >
+        </activity>
+        <activity android:name="com.scopic.fxp.ui.screen.ActivityResetRestoreList" >
+        </activity>
+        <activity android:name="com.scopic.fxp.ui.screen.ActivityExerciseDetail" >
+        </activity>
+        <activity android:name="com.scopic.fxp.ui.screen.ActivityNutritionDetail" >
+        </activity>
+        <activity android:name="com.scopic.fxp.ui.screen.ActivityWorkoutDetail" >
+        </activity>
+        <activity android:name="com.scopic.fxp.ui.screen.ActivityWorkoutComplete" >
+        </activity>
+        <activity android:name="com.scopic.fxp.ui.screen.ActivityWorkoutSelect" >
+        </activity>
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <meta-data
+            android:name="com.google.android.play.billingclient.version"
+            android:value="5.0.0" />
+
+        <activity
+            android:name="com.android.billingclient.api.ProxyBillingActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.scopic.fxp.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.scopic.fxp.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/weight_padding" >
+
+    <TextView
+        android:id="@+id/txtNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/update_weight_note"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/weight_note"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtWeight"
+        android:layout_width="@dimen/weight_edt_width"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/weight_padding"
+        android:layout_marginTop="@dimen/weight_padding"
+        android:maxLength="3"
+        android:gravity="center"
+        android:text="@string/default_weight"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/weight_padding" >
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="@dimen/weight_btn_width"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/weight_note"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="@dimen/weight_btn_width"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/weight_btn_left_margin"
+            android:text="@string/ok"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/weight_note"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

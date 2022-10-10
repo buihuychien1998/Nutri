@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/top_layout_margin"
+        android:layout_marginRight="@dimen/top_layout_margin"
+        android:paddingBottom="@dimen/top_layout_padding"
+        android:paddingTop="@dimen/top_layout_padding" >
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/arrow_back" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/title_margin"
+            android:layout_marginRight="@dimen/title_margin"
+            android:gravity="center"
+            android:text="@string/exercises"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/title_font_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/list_background"
+        android:paddingBottom="@dimen/btnProceed_bottom_margin" >
+
+        <ScrollView
+            android:id="@+id/scrContents"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/list_item_padding" >
+
+            <RelativeLayout
+                android:id="@+id/layoutContents1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtContents1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/exercises"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/sub_row_name" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/nutrion_contents_margin_top"
+                    android:layout_below="@+id/txtContents1" >
+
+                    <TextView
+                        android:id="@+id/txtContents2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/exercises"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/sub_row_name" />
+
+                    <ImageView
+                        android:id="@+id/imgContents2"
+                        android:layout_width="0dp"
+                        android:layout_height="200dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="10dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/breakfast_thumb" />
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

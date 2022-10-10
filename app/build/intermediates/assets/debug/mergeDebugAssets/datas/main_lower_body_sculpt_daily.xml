@@ -1,0 +1,77 @@
+<workouts>
+    <workout name="Lower Body Sculpt Workout">
+        <day name="1">
+            <title>Lower Body Sculpt Workout</title>
+            <description>Today your goal is to work out with this Thighs and Glutes segment. After a quick warm up you will begin sculpting your Thighs and Glutes while engaging the core muscles as well.  We will utilize the FXP Hula Hoop for added Strenghtening and Stability.</description>
+            <completeDescription>Congratulations! You just completed today's Thighs and Glutes session! During this workout you toned and sculpted the thighs and glutes.  Keep up the Great Work! See you tomorrow for your FXP Hula Hoop Workout! If you thought this was fun, check out our Challenges that are designed to help you acheive the results you desire!!</completeDescription>
+            <exercises>
+                <exercise name="Waist Hooping - Basic Stance - Dominate Leg Forward">
+                    <block>Cardio</block>
+                    <setOrRep>3 minutes</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+					<time>3</time>
+                </exercise>
+                <exercise name="Wide 2nd Plie'">
+                    <block>Thigh</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to tone and sculpt the thighs.</note>
+					<time>1</time>
+                </exercise>
+                <exercise name="Wide 2nd Plie' with Heel Lift">
+                    <block>Thigh</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to tone and Sculpt the thighs and calves.</note>
+					<time>1</time>
+                </exercise>
+                <exercise name="Dust the Table">
+                    <block>Glutes</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+					<time>1</time>
+                </exercise>
+                <exercise name="Sumo Squats">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps each move - each direction</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+					<time>2</time>
+                </exercise>
+                <exercise name="Sumo Squats with Torso Rotation">
+                    <block>Cardio</block>
+                    <setOrRep>8 reps each move - each direction</setOrRep>
+                    <note>Warm - Up: This exercise is designed to boost your heart rate and to get your body warmed up to take on this workout!</note>
+					<time>2</time>
+                </exercise>
+                <exercise name="T-Back Kick">
+                    <block>Glute</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="T-Back Cross Overs">
+                    <block>Glute</block>
+                    <setOrRep>8 full range, 8 small ranges pulses</setOrRep>
+                    <note>This exercise is meant to sculpt and define the glutes and thighs.</note>
+                    <time>2</time>
+                </exercise>
+                <exercise name="Thigh Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the muscles of the thighs, hips and outer thighs.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Figure 4 Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the muscles of the thighs, hips and outer thighs.</note>
+                    <time>1</time>
+                </exercise>
+                <exercise name="Warrior Stretch">
+                    <block>Stretch</block>
+                    <setOrRep>Hold each stretch at least 30 seconds.</setOrRep>
+                    <note>This exercise is meant to stretch and lengthen the thighs, glutes and hips and release the arms while challenging your core for balance.</note>
+                    <time>1</time>
+                </exercise>           
+            </exercises>
+        </day>                
+    </workout>
+</workouts>

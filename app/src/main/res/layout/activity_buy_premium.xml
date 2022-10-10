@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/top_layout_margin"
+        android:layout_marginRight="@dimen/top_layout_margin"
+        android:paddingBottom="@dimen/top_layout_padding"
+        android:paddingTop="@dimen/top_layout_padding" >
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/arrow_back" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/title_margin"
+            android:layout_marginRight="@dimen/title_margin"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="2"
+            android:scrollHorizontally="true"
+            android:text="@string/premium_workout"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/main_row_name" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/list_background"
+        android:paddingBottom="@dimen/btnProceed_bottom_margin" >
+
+        <ImageView
+            android:id="@+id/imgSample"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/purchase_icon" />
+
+        <ScrollView
+            android:id="@+id/scrContents"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btnBuy"
+            android:layout_below="@+id/imgSample"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/buy_text_padding" >
+
+            <TextView
+                android:id="@+id/txtContents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/exercises"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/sub_row_name" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/btnBuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/list_item_padding"
+            android:background="@drawable/buy_button"
+            android:contentDescription="@string/app_name"
+            android:text="@string/purchase_it"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/btn_font_size" />
+    </RelativeLayout>
+
+</LinearLayout>

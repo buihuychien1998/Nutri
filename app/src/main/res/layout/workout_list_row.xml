@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutGorilla"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/list_padding"
+    android:paddingTop="@dimen/list_padding" >
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/thumbnail_margin_left"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/photo2_icon_nutrition_guide_scr" />
+
+    <LinearLayout
+        android:id="@+id/layoutName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/text_margin_left"
+        android:layout_marginRight="@dimen/text_margin_left"
+        android:layout_toLeftOf="@+id/imgArrow"
+        android:layout_toRightOf="@+id/imgLogo"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="2"
+            android:scrollHorizontally="true"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sub_row_name"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/arrow_right_margin"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/app_arrow" />
+
+</RelativeLayout>
