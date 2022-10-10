@@ -51,19 +51,21 @@ public class NutritionListAdapter extends BaseAdapter {
 		}
 
 		NutritionRow nutritionRow = (NutritionRow) getItem(position);
-		String name = nutritionRow.getName();
-		int logo = nutritionRow.getLogo();
-		String subName = nutritionRow.getSubName();
+		if(nutritionRow != null){
+			String name = nutritionRow.getName();
+			int logo = nutritionRow.getLogo();
+			String subName = nutritionRow.getSubName();
 
-		TextView txtName = (TextView) v.findViewById(R.id.txtName);
-		ImageView imgLogo = (ImageView) v.findViewById(R.id.imgLogo);
-		TextView txtSubName = (TextView) v.findViewById(R.id.txtSubName);
-		
-		txtName.setText(name);
-		txtName.setTypeface(FxpApp.helveticaNeueBold);
-		txtSubName.setText(subName);
-		txtSubName.setTypeface(FxpApp.helveticaNeueThin);
-		imgLogo.setImageResource(logo);
+			TextView txtName = (TextView) v.findViewById(R.id.txtName);
+			ImageView imgLogo = (ImageView) v.findViewById(R.id.imgLogo);
+			TextView txtSubName = (TextView) v.findViewById(R.id.txtSubName);
+
+			txtName.setText(name);
+			txtName.setTypeface(FxpApp.helveticaNeueBold);
+			txtSubName.setText(subName);
+			txtSubName.setTypeface(FxpApp.helveticaNeueThin);
+			imgLogo.setImageResource(logo);
+		}
 
 		return v;
 	}

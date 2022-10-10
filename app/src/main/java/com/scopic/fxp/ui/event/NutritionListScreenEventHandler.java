@@ -52,7 +52,7 @@ public class NutritionListScreenEventHandler implements OnClickListener, OnItemC
 	@Override
 	public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 		NutritionRow nutritionRow = (NutritionRow) nutritionRows.get(position);
-
+		if(nutritionRow == null) return;
 		FxpApp.menuBar.getCurrentViewSelected().setSelected(false);
 		FxpApp.menuBar.setCurrentViewSelected(FxpApp.menuBar.getNutrition());
 

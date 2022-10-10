@@ -18,15 +18,15 @@ public class FxpApp extends Application {
 
 	public static MenuBarFragment menuBar;
 
-	public static Map<String, String> youtubeVideoMap;
+	public static Map<String, String> youtubeVideoMap = new HashMap<>();
 
-	public static Map<String, List<WorkoutBean>> mainWorkoutsMap;
+	public static Map<String, List<WorkoutBean>> mainWorkoutsMap = new HashMap<>();
 	
-	public static Map<String, List<WorkoutBean>> premiumWorkoutsMap;
+	public static Map<String, List<WorkoutBean>> premiumWorkoutsMap = new HashMap<>();
 	
-	public static Map<String, ExerciseBean> exercisesMap;
+	public static Map<String, ExerciseBean> exercisesMap = new HashMap<>();
 	
-	public static Map<String, NutritionCategoryBean> nutritionsMap;
+	public static Map<String, NutritionCategoryBean> nutritionsMap = new HashMap<>();
 	
 	public static Map<String, Integer> currentDays;
 
@@ -51,6 +51,12 @@ public class FxpApp extends Application {
 	public static boolean isLastDay;
 	
 	public static List<ExerciseBean> exercisesList;
+
+	static {
+//		nutritionsMap.put("Breakfast", new NutritionCategoryBean("", ));
+//		nutritionsMap.put("Snack", new NutritionCategoryBean());
+//		nutritionsMap.put("Launch", new NutritionCategoryBean());
+	}
 
 	@Override
 	public void onCreate() {

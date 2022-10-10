@@ -7,7 +7,7 @@
 7    <uses-sdk
 8        android:minSdkVersion="14"
 8-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="32" />
+9        android:targetSdkVersion="33" />
 9-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml
 10
 11    <!-- <uses-sdk -->

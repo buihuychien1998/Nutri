@@ -66,18 +66,18 @@ public class ActivitySplash extends AbstractActivity {
 		@Override
 		protected Boolean doInBackground(Void... params) {
 			// Load mainWorkoutsMap
-			//FxpApp.mainWorkoutsMap = CommonUtils.loadMainWorkoutsMap(getApplicationContext());
+			FxpApp.mainWorkoutsMap = CommonUtils.loadMainWorkoutsMap(getApplicationContext());
 
 			// Load premiumWorkoutsMap
-		//	FxpApp.premiumWorkoutsMap = CommonUtils.loadPremiumWorkoutsMap(getApplicationContext());
+			FxpApp.premiumWorkoutsMap = CommonUtils.loadPremiumWorkoutsMap(getApplicationContext());
 
 			// Load exercisesMap
-		//	FxpApp.exercisesMap = CommonUtils.loadAvaiableExerices(getApplicationContext());
+			FxpApp.exercisesMap = CommonUtils.loadAvaiableExerices(getApplicationContext());
 
 			// Load nutritionsMap
-			//FxpApp.nutritionsMap = CommonUtils.loadNutritionGuide(getApplicationContext());
+			FxpApp.nutritionsMap = CommonUtils.loadNutritionGuide(getApplicationContext());
 
-			//FxpApp.exercisesList = new ArrayList<ExerciseBean>(FxpApp.exercisesMap.values());
+			FxpApp.exercisesList = new ArrayList<ExerciseBean>(FxpApp.exercisesMap.values());
 			if (FxpApp.exercisesList.size() > 0) {
 				Collections.sort(FxpApp.exercisesList, new Comparator<ExerciseBean>() {
 					@Override
