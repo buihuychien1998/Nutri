@@ -6,247 +6,250 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="14"
-8-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml
+8-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml
+9-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml
 10
 11    <!-- <uses-sdk -->
 12    <!-- android:minSdkVersion="9" -->
 13    <!-- android:targetSdkVersion="19" /> -->
 14
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:12:5-67
-15-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:12:22-64
+15-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:12:5-67
+15-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:12:22-64
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:13:5-79
-16-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:13:22-76
+16-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:13:5-79
+16-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:13:22-76
 17    <uses-permission android:name="com.android.vending.BILLING" />
-17-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:14:5-67
-17-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:14:22-64
+17-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:14:5-67
+17-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:14:22-64
 18
 19    <application
-19-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:16:5-100:19
+19-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:16:5-101:19
 20        android:name="com.scopic.fxp.FxpApp"
-20-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:17:9-45
+20-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:17:9-45
 21        android:allowBackup="true"
-21-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:18:9-35
+21-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:18:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 22-->[androidx.core:core:1.7.0] C:\Users\Admin\.gradle\caches\transforms-3\721f5b34e748a33485238ceb50c18896\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 23        android:debuggable="true"
 24        android:icon="@drawable/ic_launcher"
-24-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:19:9-45
+24-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:19:9-45
 25        android:label="@string/app_name"
-25-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:20:9-41
+25-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:20:9-41
 26        android:largeHeap="true"
-26-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:21:9-33
+26-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:21:9-33
 27        android:testOnly="true"
 28        android:theme="@style/AppTheme" >
-28-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:22:9-40
+28-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:22:9-40
 29        <activity
-29-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:23:9-33:20
+29-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:23:9-33:20
 30            android:name="com.scopic.fxp.ui.screen.ActivitySplash"
-30-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:24:13-53
+30-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:24:13-53
 31            android:exported="true"
-31-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:27:13-36
+31-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:27:13-36
 32            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
-32-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:25:13-77
+32-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:25:13-77
 33            <intent-filter>
-33-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:28:13-32:29
+33-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:28:13-32:29
 34                <action android:name="android.intent.action.MAIN" />
-34-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:29:17-69
-34-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:29:25-66
+34-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:29:17-69
+34-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:29:25-66
 35
 36                <category android:name="android.intent.category.LAUNCHER" />
-36-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:31:17-77
-36-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:31:27-74
+36-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:31:17-77
+36-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:31:27-74
 37            </intent-filter>
 38        </activity>
 39        <activity
-39-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:34:9-40:20
+39-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:34:9-40:20
 40            android:name="com.scopic.fxp.ui.screen.ActivityMain"
-40-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:35:13-51
+40-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:35:13-51
 41            android:configChanges="keyboardHidden|orientation|screenSize"
-41-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:36:13-74
+41-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:36:13-74
 42            android:launchMode="singleTask"
-42-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:37:13-44
+42-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:37:13-44
 43            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
-43-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:38:13-77
+43-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:38:13-77
 44        </activity>
 45        <activity
-45-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:41:9-45:20
+45-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:41:9-45:20
 46            android:name="com.scopic.fxp.ui.screen.ActivityVideoDemo"
-46-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:42:13-56
+46-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:42:13-56
 47            android:screenOrientation="landscape"
-47-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:43:13-50
+47-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:43:13-50
 48            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
-48-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:44:13-71
+48-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:44:13-71
 49        </activity>
 50        <activity
-50-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:46:9-61:20
+50-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:46:9-61:20
 51            android:name="com.scopic.fxp.twitter.PrepareRequestTokenActivity"
-51-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:47:13-64
+51-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:47:13-64
 52            android:exported="true"
-52-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:50:13-36
+52-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:50:13-36
 53            android:launchMode="singleTask" >
-53-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:48:13-44
+53-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:48:13-44
 54            <intent-filter>
-54-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:51:13-60:29
+54-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:51:13-60:29
 55                <action android:name="android.intent.action.VIEW" />
-55-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:52:17-69
-55-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:52:25-66
+55-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:52:17-69
+55-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:52:25-66
 56
 57                <category android:name="android.intent.category.DEFAULT" />
-57-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:54:17-76
-57-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:54:27-73
+57-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:54:17-76
+57-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:54:27-73
 58                <category android:name="android.intent.category.BROWSABLE" />
-58-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:55:17-78
-58-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:55:27-75
+58-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:55:17-78
+58-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:55:27-75
 59
 60                <data
-60-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:57:17-59:60
+60-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:57:17-59:60
 61                    android:host="callback"
-61-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:58:21-44
+61-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:58:21-44
 62                    android:scheme="x-oauthflow-twitter" />
-62-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:59:21-57
+62-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:59:21-57
 63            </intent-filter>
 64        </activity>
 65        <activity android:name="com.scopic.fxp.ui.screen.ActivityExerciseList" >
-65-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:62:9-64:20
-65-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:62:19-65
+65-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:62:9-64:20
+65-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:62:19-65
 66        </activity>
 67        <activity android:name="com.scopic.fxp.ui.screen.ActivityFuelList" >
-67-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:65:9-67:20
-67-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:65:19-61
+67-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:65:9-67:20
+67-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:65:19-61
 68        </activity>
 69        <activity android:name="com.scopic.fxp.ui.screen.ActivityMainWorkoutList" >
-69-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:68:9-70:20
-69-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:68:19-68
+69-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:68:9-70:20
+69-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:68:19-68
 70        </activity>
 71        <activity android:name="com.scopic.fxp.ui.screen.ActivityMenu" >
-71-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:71:9-72:20
-71-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:71:19-57
+71-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:71:9-72:20
+71-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:71:19-57
 72        </activity>
 73        <activity android:name="com.scopic.fxp.ui.screen.ActivityNutritionList" >
-73-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:73:9-75:20
-73-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:73:19-66
+73-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:73:9-75:20
+73-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:73:19-66
 74        </activity>
 75        <activity android:name="com.scopic.fxp.ui.screen.ActivityPremiumWorkoutList" >
-75-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:76:9-78:20
-75-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:76:19-71
+75-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:76:9-78:20
+75-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:76:19-71
 76        </activity>
 77        <activity android:name="com.scopic.fxp.ui.screen.ActivitySettings" >
-77-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:79:9-81:20
-77-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:79:19-61
+77-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:79:9-81:20
+77-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:79:19-61
 78        </activity>
 79        <activity android:name="com.scopic.fxp.ui.screen.ActivityResetRestoreList" >
-79-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:82:9-84:20
-79-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:82:19-69
+79-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:82:9-84:20
+79-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:82:19-69
 80        </activity>
 81        <activity android:name="com.scopic.fxp.ui.screen.ActivityExerciseDetail" >
-81-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:85:9-87:20
-81-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:85:19-67
+81-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:85:9-87:20
+81-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:85:19-67
 82        </activity>
 83        <activity android:name="com.scopic.fxp.ui.screen.ActivityNutritionDetail" >
-83-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:88:9-90:20
-83-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:88:19-68
+83-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:88:9-90:20
+83-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:88:19-68
 84        </activity>
 85        <activity android:name="com.scopic.fxp.ui.screen.ActivityWorkoutDetail" >
-85-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:91:9-93:20
-85-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:91:19-66
+85-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:91:9-93:20
+85-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:91:19-66
 86        </activity>
 87        <activity android:name="com.scopic.fxp.ui.screen.ActivityWorkoutComplete" >
-87-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:94:9-96:20
-87-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:94:19-68
+87-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:94:9-96:20
+87-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:94:19-68
 88        </activity>
 89        <activity android:name="com.scopic.fxp.ui.screen.ActivityWorkoutSelect" >
-89-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:97:9-99:20
-89-->E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:97:19-66
+89-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:97:9-99:20
+89-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:97:19-66
 90        </activity>
-91
-92        <service
-92-->[com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:29:9-35:19
-93            android:name="com.google.firebase.components.ComponentDiscoveryService"
-93-->[com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:30:13-84
-94            android:directBootAware="true"
-94-->[com.google.firebase:firebase-common:20.1.2] C:\Users\Admin\.gradle\caches\transforms-3\a4399a8d5818cbed57a04282a03bdc53\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:35:13-43
-95            android:exported="false" >
-95-->[com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:31:13-37
-96            <meta-data
-96-->[com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:32:13-34:85
-97                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-97-->[com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:33:17-109
-98                android:value="com.google.firebase.components.ComponentRegistrar" />
-98-->[com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:34:17-82
-99        </service>
-100
-101        <meta-data
-101-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-3\c66dce65bb28b786006cd03cd964625d\transformed\jetified-billing-5.0.0\AndroidManifest.xml:13:9-15:37
-102            android:name="com.google.android.play.billingclient.version"
-102-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-3\c66dce65bb28b786006cd03cd964625d\transformed\jetified-billing-5.0.0\AndroidManifest.xml:14:13-73
-103            android:value="5.0.0" />
-103-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-3\c66dce65bb28b786006cd03cd964625d\transformed\jetified-billing-5.0.0\AndroidManifest.xml:15:13-34
-104
-105        <activity
-105-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-3\c66dce65bb28b786006cd03cd964625d\transformed\jetified-billing-5.0.0\AndroidManifest.xml:17:9-21:75
-106            android:name="com.android.billingclient.api.ProxyBillingActivity"
-106-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-3\c66dce65bb28b786006cd03cd964625d\transformed\jetified-billing-5.0.0\AndroidManifest.xml:18:13-78
-107            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-107-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-3\c66dce65bb28b786006cd03cd964625d\transformed\jetified-billing-5.0.0\AndroidManifest.xml:19:13-96
-108            android:exported="false"
-108-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-3\c66dce65bb28b786006cd03cd964625d\transformed\jetified-billing-5.0.0\AndroidManifest.xml:20:13-37
-109            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-109-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-3\c66dce65bb28b786006cd03cd964625d\transformed\jetified-billing-5.0.0\AndroidManifest.xml:21:13-72
-110
-111        <provider
-111-->[com.google.firebase:firebase-common:20.1.2] C:\Users\Admin\.gradle\caches\transforms-3\a4399a8d5818cbed57a04282a03bdc53\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:26:9-31:39
-112            android:name="com.google.firebase.provider.FirebaseInitProvider"
-112-->[com.google.firebase:firebase-common:20.1.2] C:\Users\Admin\.gradle\caches\transforms-3\a4399a8d5818cbed57a04282a03bdc53\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:27:13-77
-113            android:authorities="com.scopic.fxp.firebaseinitprovider"
-113-->[com.google.firebase:firebase-common:20.1.2] C:\Users\Admin\.gradle\caches\transforms-3\a4399a8d5818cbed57a04282a03bdc53\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:28:13-72
-114            android:directBootAware="true"
-114-->[com.google.firebase:firebase-common:20.1.2] C:\Users\Admin\.gradle\caches\transforms-3\a4399a8d5818cbed57a04282a03bdc53\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:29:13-43
-115            android:exported="false"
-115-->[com.google.firebase:firebase-common:20.1.2] C:\Users\Admin\.gradle\caches\transforms-3\a4399a8d5818cbed57a04282a03bdc53\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:30:13-37
-116            android:initOrder="100" />
-116-->[com.google.firebase:firebase-common:20.1.2] C:\Users\Admin\.gradle\caches\transforms-3\a4399a8d5818cbed57a04282a03bdc53\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:31:13-36
-117
-118        <activity
-118-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-3\c3e8307158209c4a97e9c1931e4730bb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-119            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-119-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-3\c3e8307158209c4a97e9c1931e4730bb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-120            android:exported="false"
-120-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-3\c3e8307158209c4a97e9c1931e4730bb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-121            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-121-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-3\c3e8307158209c4a97e9c1931e4730bb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-122
-123        <meta-data
-123-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\0c2d2180fbadaa9ac528bc3f51db4766\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-124            android:name="com.google.android.gms.version"
-124-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\0c2d2180fbadaa9ac528bc3f51db4766\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-125            android:value="@integer/google_play_services_version" />
-125-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\0c2d2180fbadaa9ac528bc3f51db4766\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-126
-127        <provider
-127-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\94a282d2e1a292b7863825ca6c07aa44\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-128            android:name="androidx.startup.InitializationProvider"
-128-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\94a282d2e1a292b7863825ca6c07aa44\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-129            android:authorities="com.scopic.fxp.androidx-startup"
-129-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\94a282d2e1a292b7863825ca6c07aa44\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-130            android:exported="false" >
-130-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\94a282d2e1a292b7863825ca6c07aa44\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-131            <meta-data
-131-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\94a282d2e1a292b7863825ca6c07aa44\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-132                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-132-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\94a282d2e1a292b7863825ca6c07aa44\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-133                android:value="androidx.startup" />
-133-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\94a282d2e1a292b7863825ca6c07aa44\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-134            <meta-data
-134-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\1981a669cad2585f75976cb57f0590d2\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-135                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-135-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\1981a669cad2585f75976cb57f0590d2\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-136                android:value="androidx.startup" />
-136-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\1981a669cad2585f75976cb57f0590d2\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-137        </provider>
-138    </application>
-139
-140</manifest>
+91        <activity android:name="com.scopic.fxp.ui.screen.PatientPhotoDetailFragment" />
+91-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:100:9-74
+91-->C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:100:19-71
+92
+93        <service
+93-->[com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:29:9-35:19
+94            android:name="com.google.firebase.components.ComponentDiscoveryService"
+94-->[com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:30:13-84
+95            android:directBootAware="true"
+95-->[com.google.firebase:firebase-common:20.1.2] C:\Users\Admin\.gradle\caches\transforms-3\a4399a8d5818cbed57a04282a03bdc53\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:35:13-43
+96            android:exported="false" >
+96-->[com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:31:13-37
+97            <meta-data
+97-->[com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:32:13-34:85
+98                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+98-->[com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:33:17-109
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:34:17-82
+100        </service>
+101
+102        <meta-data
+102-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-3\c66dce65bb28b786006cd03cd964625d\transformed\jetified-billing-5.0.0\AndroidManifest.xml:13:9-15:37
+103            android:name="com.google.android.play.billingclient.version"
+103-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-3\c66dce65bb28b786006cd03cd964625d\transformed\jetified-billing-5.0.0\AndroidManifest.xml:14:13-73
+104            android:value="5.0.0" />
+104-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-3\c66dce65bb28b786006cd03cd964625d\transformed\jetified-billing-5.0.0\AndroidManifest.xml:15:13-34
+105
+106        <activity
+106-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-3\c66dce65bb28b786006cd03cd964625d\transformed\jetified-billing-5.0.0\AndroidManifest.xml:17:9-21:75
+107            android:name="com.android.billingclient.api.ProxyBillingActivity"
+107-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-3\c66dce65bb28b786006cd03cd964625d\transformed\jetified-billing-5.0.0\AndroidManifest.xml:18:13-78
+108            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+108-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-3\c66dce65bb28b786006cd03cd964625d\transformed\jetified-billing-5.0.0\AndroidManifest.xml:19:13-96
+109            android:exported="false"
+109-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-3\c66dce65bb28b786006cd03cd964625d\transformed\jetified-billing-5.0.0\AndroidManifest.xml:20:13-37
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+110-->[com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-3\c66dce65bb28b786006cd03cd964625d\transformed\jetified-billing-5.0.0\AndroidManifest.xml:21:13-72
+111
+112        <provider
+112-->[com.google.firebase:firebase-common:20.1.2] C:\Users\Admin\.gradle\caches\transforms-3\a4399a8d5818cbed57a04282a03bdc53\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:26:9-31:39
+113            android:name="com.google.firebase.provider.FirebaseInitProvider"
+113-->[com.google.firebase:firebase-common:20.1.2] C:\Users\Admin\.gradle\caches\transforms-3\a4399a8d5818cbed57a04282a03bdc53\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:27:13-77
+114            android:authorities="com.scopic.fxp.firebaseinitprovider"
+114-->[com.google.firebase:firebase-common:20.1.2] C:\Users\Admin\.gradle\caches\transforms-3\a4399a8d5818cbed57a04282a03bdc53\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:28:13-72
+115            android:directBootAware="true"
+115-->[com.google.firebase:firebase-common:20.1.2] C:\Users\Admin\.gradle\caches\transforms-3\a4399a8d5818cbed57a04282a03bdc53\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:29:13-43
+116            android:exported="false"
+116-->[com.google.firebase:firebase-common:20.1.2] C:\Users\Admin\.gradle\caches\transforms-3\a4399a8d5818cbed57a04282a03bdc53\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:30:13-37
+117            android:initOrder="100" />
+117-->[com.google.firebase:firebase-common:20.1.2] C:\Users\Admin\.gradle\caches\transforms-3\a4399a8d5818cbed57a04282a03bdc53\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:31:13-36
+118
+119        <activity
+119-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-3\c3e8307158209c4a97e9c1931e4730bb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+120            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+120-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-3\c3e8307158209c4a97e9c1931e4730bb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+121            android:exported="false"
+121-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-3\c3e8307158209c4a97e9c1931e4730bb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+122-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Admin\.gradle\caches\transforms-3\c3e8307158209c4a97e9c1931e4730bb\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+123
+124        <meta-data
+124-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\0c2d2180fbadaa9ac528bc3f51db4766\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+125            android:name="com.google.android.gms.version"
+125-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\0c2d2180fbadaa9ac528bc3f51db4766\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+126            android:value="@integer/google_play_services_version" />
+126-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Admin\.gradle\caches\transforms-3\0c2d2180fbadaa9ac528bc3f51db4766\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+127
+128        <provider
+128-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\94a282d2e1a292b7863825ca6c07aa44\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+129            android:name="androidx.startup.InitializationProvider"
+129-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\94a282d2e1a292b7863825ca6c07aa44\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+130            android:authorities="com.scopic.fxp.androidx-startup"
+130-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\94a282d2e1a292b7863825ca6c07aa44\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+131            android:exported="false" >
+131-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\94a282d2e1a292b7863825ca6c07aa44\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+132            <meta-data
+132-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\94a282d2e1a292b7863825ca6c07aa44\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+133                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+133-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\94a282d2e1a292b7863825ca6c07aa44\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+134                android:value="androidx.startup" />
+134-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\94a282d2e1a292b7863825ca6c07aa44\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+135            <meta-data
+135-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\1981a669cad2585f75976cb57f0590d2\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+136                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+136-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\1981a669cad2585f75976cb57f0590d2\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+137                android:value="androidx.startup" />
+137-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Admin\.gradle\caches\transforms-3\1981a669cad2585f75976cb57f0590d2\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+138        </provider>
+139    </application>
+140
+141</manifest>

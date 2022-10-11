@@ -1,14 +1,15 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:2:1-102:12
-INJECTED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:2:1-102:12
-INJECTED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:2:1-102:12
-INJECTED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:2:1-102:12
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:2:1-103:12
+INJECTED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:2:1-103:12
+INJECTED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:2:1-103:12
+INJECTED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:2:1-103:12
 MERGED from [com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:15:1-38:12
 MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\Admin\.gradle\caches\transforms-3\9fe32aa9207c6e97b3225ddc880b0edb\transformed\appcompat-1.4.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\0b960b2aa6ef1cf3f9500a686dfcac19\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-3\c66dce65bb28b786006cd03cd964625d\transformed\jetified-billing-5.0.0\AndroidManifest.xml:2:1-24:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Admin\.gradle\caches\transforms-3\5a6647a43f230ebdd8e2ec0e59ef2ce9\transformed\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:10.2.1] C:\Users\Admin\.gradle\caches\transforms-3\a7ea565cef16236b68659aa157e3cbb9\transformed\jetified-butterknife-10.2.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.1] C:\Users\Admin\.gradle\caches\transforms-3\23a65e725ae6f44f804f01ae32f76b65\transformed\jetified-firebase-appcheck-interop-16.0.1\AndroidManifest.xml:15:1-26:12
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Admin\.gradle\caches\transforms-3\928514b9845d5ce4ab93e6f937299fa0\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-common:20.1.2] C:\Users\Admin\.gradle\caches\transforms-3\a4399a8d5818cbed57a04282a03bdc53\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:15:1-40:12
@@ -26,6 +27,7 @@ MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\Admin\.gradle\c
 MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\94a282d2e1a292b7863825ca6c07aa44\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.media:media:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\b951b3c90b8c69e0f7302307caabf2af\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\629ac52b93e4640f9f6e8de44b6d135e\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] C:\Users\Admin\.gradle\caches\transforms-3\f21a702fd943d51110c1cfa72492c1a4\transformed\jetified-butterknife-runtime-10.2.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\f1c9760cdad19f092bad1182299ecb3b\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\8cbc746acab7d1a09e8a27365540a160\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Admin\.gradle\caches\transforms-3\ac848444e85dc0d9993258e9335f069f\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -53,45 +55,45 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\f51fb5b8dc49e87f4fb5aea83f94c713\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\2b54f1f658b7769067278f8c0415725f\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Admin\.gradle\caches\transforms-3\5de8f6329697e1a208810f12f088b491\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:2:1-102:12
-INJECTED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:2:1-102:12
-INJECTED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:2:1-102:12
+INJECTED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:2:1-103:12
+INJECTED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:2:1-103:12
+INJECTED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:2:1-103:12
 	package
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:4:5-29
-		INJECTED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:4:5-29
+		INJECTED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:6:5-30
-		INJECTED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:6:5-30
+		INJECTED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:3:5-51
 	xmlns:android
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:5:5-28
-		INJECTED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:5:5-28
+		INJECTED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:12:5-67
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:12:5-67
 MERGED from [com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:26:5-67
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:12:22-64
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:12:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:13:5-79
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:13:5-79
 MERGED from [com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:25:5-79
 MERGED from [com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:25:5-79
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:13:22-76
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:13:22-76
 uses-permission#com.android.vending.BILLING
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:14:5-67
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:14:5-67
 MERGED from [com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-3\c66dce65bb28b786006cd03cd964625d\transformed\jetified-billing-5.0.0\AndroidManifest.xml:10:5-67
 MERGED from [com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-3\c66dce65bb28b786006cd03cd964625d\transformed\jetified-billing-5.0.0\AndroidManifest.xml:10:5-67
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:14:22-64
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:14:22-64
 application
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:16:5-100:19
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:16:5-101:19
 MERGED from [com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:28:5-36:19
 MERGED from [com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-3\c66dce65bb28b786006cd03cd964625d\transformed\jetified-billing-5.0.0\AndroidManifest.xml:12:5-22:19
@@ -121,167 +123,171 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\Admin\.gradle\cach
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] C:\Users\Admin\.gradle\caches\transforms-3\721f5b34e748a33485238ceb50c18896\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:20:9-41
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:20:9-41
 	android:largeHeap
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:21:9-33
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:21:9-33
 	android:icon
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:19:9-45
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:19:9-45
 	android:allowBackup
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:18:9-35
 	android:theme
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:22:9-40
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:22:9-40
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:17:9-45
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:17:9-45
 activity#com.scopic.fxp.ui.screen.ActivitySplash
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:23:9-33:20
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:23:9-33:20
 	android:exported
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:27:13-36
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:27:13-36
 	tools:ignore
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:26:13-42
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:26:13-42
 	android:theme
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:25:13-77
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:25:13-77
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:24:13-53
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:24:13-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:28:13-32:29
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:29:17-69
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:29:17-69
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:29:25-66
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:29:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:31:17-77
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:31:17-77
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:31:27-74
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:31:27-74
 activity#com.scopic.fxp.ui.screen.ActivityMain
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:34:9-40:20
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:34:9-40:20
 	android:launchMode
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:37:13-44
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:37:13-44
 	tools:ignore
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:39:13-42
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:39:13-42
 	android:configChanges
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:36:13-74
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:36:13-74
 	android:theme
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:38:13-77
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:38:13-77
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:35:13-51
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:35:13-51
 activity#com.scopic.fxp.ui.screen.ActivityVideoDemo
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:41:9-45:20
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:41:9-45:20
 	android:screenOrientation
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:43:13-50
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:43:13-50
 	android:theme
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:44:13-71
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:44:13-71
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:42:13-56
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:42:13-56
 activity#com.scopic.fxp.twitter.PrepareRequestTokenActivity
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:46:9-61:20
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:46:9-61:20
 	android:launchMode
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:48:13-44
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:48:13-44
 	android:exported
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:50:13-36
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:50:13-36
 	tools:ignore
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:49:13-44
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:49:13-44
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:47:13-64
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:47:13-64
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:callback+data:scheme:x-oauthflow-twitter
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:51:13-60:29
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:51:13-60:29
 action#android.intent.action.VIEW
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:52:17-69
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:52:17-69
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:52:25-66
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:52:25-66
 category#android.intent.category.DEFAULT
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:54:17-76
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:54:17-76
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:54:27-73
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:54:27-73
 category#android.intent.category.BROWSABLE
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:55:17-78
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:55:17-78
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:55:27-75
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:55:27-75
 data
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:57:17-59:60
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:57:17-59:60
 	android:host
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:58:21-44
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:58:21-44
 	android:scheme
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:59:21-57
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:59:21-57
 activity#com.scopic.fxp.ui.screen.ActivityExerciseList
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:62:9-64:20
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:62:9-64:20
 	tools:ignore
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:63:13-42
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:63:13-42
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:62:19-65
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:62:19-65
 activity#com.scopic.fxp.ui.screen.ActivityFuelList
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:65:9-67:20
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:65:9-67:20
 	tools:ignore
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:66:13-42
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:66:13-42
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:65:19-61
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:65:19-61
 activity#com.scopic.fxp.ui.screen.ActivityMainWorkoutList
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:68:9-70:20
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:68:9-70:20
 	tools:ignore
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:69:13-42
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:69:13-42
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:68:19-68
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:68:19-68
 activity#com.scopic.fxp.ui.screen.ActivityMenu
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:71:9-72:20
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:71:9-72:20
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:71:19-57
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:71:19-57
 activity#com.scopic.fxp.ui.screen.ActivityNutritionList
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:73:9-75:20
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:73:9-75:20
 	tools:ignore
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:74:13-42
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:74:13-42
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:73:19-66
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:73:19-66
 activity#com.scopic.fxp.ui.screen.ActivityPremiumWorkoutList
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:76:9-78:20
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:76:9-78:20
 	tools:ignore
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:77:13-42
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:77:13-42
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:76:19-71
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:76:19-71
 activity#com.scopic.fxp.ui.screen.ActivitySettings
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:79:9-81:20
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:79:9-81:20
 	tools:ignore
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:80:13-42
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:80:13-42
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:79:19-61
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:79:19-61
 activity#com.scopic.fxp.ui.screen.ActivityResetRestoreList
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:82:9-84:20
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:82:9-84:20
 	tools:ignore
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:83:13-42
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:83:13-42
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:82:19-69
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:82:19-69
 activity#com.scopic.fxp.ui.screen.ActivityExerciseDetail
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:85:9-87:20
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:85:9-87:20
 	tools:ignore
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:86:13-42
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:86:13-42
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:85:19-67
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:85:19-67
 activity#com.scopic.fxp.ui.screen.ActivityNutritionDetail
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:88:9-90:20
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:88:9-90:20
 	tools:ignore
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:89:13-42
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:89:13-42
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:88:19-68
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:88:19-68
 activity#com.scopic.fxp.ui.screen.ActivityWorkoutDetail
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:91:9-93:20
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:91:9-93:20
 	tools:ignore
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:92:13-42
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:92:13-42
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:91:19-66
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:91:19-66
 activity#com.scopic.fxp.ui.screen.ActivityWorkoutComplete
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:94:9-96:20
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:94:9-96:20
 	tools:ignore
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:95:13-42
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:95:13-42
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:94:19-68
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:94:19-68
 activity#com.scopic.fxp.ui.screen.ActivityWorkoutSelect
-ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:97:9-99:20
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:97:9-99:20
 	tools:ignore
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:98:13-42
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:98:13-42
 	android:name
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml:97:19-66
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:97:19-66
+activity#com.scopic.fxp.ui.screen.PatientPhotoDetailFragment
+ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:100:9-74
+	android:name
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml:100:19-71
 uses-sdk
-INJECTED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml
-INJECTED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml
 MERGED from [com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\Admin\.gradle\caches\transforms-3\9fe32aa9207c6e97b3225ddc880b0edb\transformed\appcompat-1.4.2\AndroidManifest.xml:20:5-22:41
@@ -292,6 +298,8 @@ MERGED from [com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\cac
 MERGED from [com.android.billingclient:billing:5.0.0] C:\Users\Admin\.gradle\caches\transforms-3\c66dce65bb28b786006cd03cd964625d\transformed\jetified-billing-5.0.0\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Admin\.gradle\caches\transforms-3\5a6647a43f230ebdd8e2ec0e59ef2ce9\transformed\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Admin\.gradle\caches\transforms-3\5a6647a43f230ebdd8e2ec0e59ef2ce9\transformed\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.jakewharton:butterknife:10.2.1] C:\Users\Admin\.gradle\caches\transforms-3\a7ea565cef16236b68659aa157e3cbb9\transformed\jetified-butterknife-10.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.2.1] C:\Users\Admin\.gradle\caches\transforms-3\a7ea565cef16236b68659aa157e3cbb9\transformed\jetified-butterknife-10.2.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.1] C:\Users\Admin\.gradle\caches\transforms-3\23a65e725ae6f44f804f01ae32f76b65\transformed\jetified-firebase-appcheck-interop-16.0.1\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.1] C:\Users\Admin\.gradle\caches\transforms-3\23a65e725ae6f44f804f01ae32f76b65\transformed\jetified-firebase-appcheck-interop-16.0.1\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Admin\.gradle\caches\transforms-3\928514b9845d5ce4ab93e6f937299fa0\transformed\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
@@ -326,6 +334,8 @@ MERGED from [androidx.media:media:1.0.0] C:\Users\Admin\.gradle\caches\transform
 MERGED from [androidx.media:media:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\b951b3c90b8c69e0f7302307caabf2af\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\629ac52b93e4640f9f6e8de44b6d135e\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\629ac52b93e4640f9f6e8de44b6d135e\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] C:\Users\Admin\.gradle\caches\transforms-3\f21a702fd943d51110c1cfa72492c1a4\transformed\jetified-butterknife-runtime-10.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.2.1] C:\Users\Admin\.gradle\caches\transforms-3\f21a702fd943d51110c1cfa72492c1a4\transformed\jetified-butterknife-runtime-10.2.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\f1c9760cdad19f092bad1182299ecb3b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\f1c9760cdad19f092bad1182299ecb3b\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\8cbc746acab7d1a09e8a27365540a160\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
@@ -380,16 +390,16 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin\.gradle\ca
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Admin\.gradle\caches\transforms-3\2b54f1f658b7769067278f8c0415725f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Admin\.gradle\caches\transforms-3\5de8f6329697e1a208810f12f088b491\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Admin\.gradle\caches\transforms-3\5de8f6329697e1a208810f12f088b491\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
-INJECTED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml
-INJECTED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml
-		ADDED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Toprate\FXP2\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Admin\AndroidStudioProjects\Nutri\app\src\main\AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-database:20.0.6] C:\Users\Admin\.gradle\caches\transforms-3\332bbf7e8d083b59394159ad375b9640\transformed\jetified-firebase-database-20.0.6\AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-common:20.1.2] C:\Users\Admin\.gradle\caches\transforms-3\a4399a8d5818cbed57a04282a03bdc53\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:33:9-37:35

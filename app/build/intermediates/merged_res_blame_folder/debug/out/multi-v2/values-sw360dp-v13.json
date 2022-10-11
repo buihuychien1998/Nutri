@@ -4,7 +4,7 @@
             "outputFile": "com.scopic.fxp.app-mergeDebugResources-20:/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "E:\\Toprate\\FXP2\\app\\src\\main\\res\\values-sw360dp\\dimens.xml",
+                    "source": "C:\\Users\\Admin\\AndroidStudioProjects\\Nutri\\app\\src\\main\\res\\values-sw360dp\\dimens.xml",
                     "from": {
                         "startLines": "4,3",
                         "startColumns": "4,4",

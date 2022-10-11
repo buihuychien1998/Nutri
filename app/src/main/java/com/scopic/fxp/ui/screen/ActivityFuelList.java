@@ -23,7 +23,6 @@ import com.scopic.fxp.FxpApp;
 import com.scopic.fxp.R;
 import com.scopic.fxp.bean.FuelRow;
 import com.scopic.fxp.bean.UserData;
-import com.scopic.fxp.ui.adapter.FuelGridAdapter;
 import com.scopic.fxp.ui.adapter.FuelListAdapter;
 import com.scopic.fxp.ui.event.FuelListScreenEventHandler;
 import com.scopic.fxp.ui.utils.CommonUtils;
@@ -72,16 +71,16 @@ public class ActivityFuelList extends AbstractFragment {
 			((ListView)mFuelList).setAdapter(workoutListAdapter);
 			((ListView)mFuelList).setOnItemClickListener(eventHandler);
 		} catch (Exception e) {
-			mFuelList = (GridView) view.findViewById(R.id.fuels);
+			//mFuelList = (GridView) view.findViewById(R.id.fuels);
 			
 			for (int i = 0; i < fuelList.length; i++) {
 				FuelRow fuelRow = new FuelRow(fuelList[i], pointList[i]);
 				fuelRows.add(fuelRow);
 			}
 			
-			FuelGridAdapter workoutListAdapter = new FuelGridAdapter(this.getActivity(), fuelRows);
-			((GridView)mFuelList).setAdapter(workoutListAdapter);
-			((GridView)mFuelList).setOnItemClickListener(eventHandler);
+		////	FuelGridAdapter workoutListAdapter = new FuelGridAdapter(this.getActivity(), fuelRows);
+			//((GridView)mFuelList).setAdapter(workoutListAdapter);
+			//((GridView)mFuelList).setOnItemClickListener(eventHandler);
 		}
 		
 		eventHandler.setFuelRows(fuelRows);

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.scopic.fxp.app-mergeDebugResources-20:/values-xlarge-port-v4/values-xlarge-port-v4.xml",
+            "outputFile": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.scopic.fxp.app-mergeDebugResources-20:\\values-xlarge-port-v4\\values-xlarge-port-v4.xml",
             "map": [
                 {
-                    "source": "E:\\Toprate\\FXP2\\app\\src\\main\\res\\values-xlarge-port\\dimens.xml",
+                    "source": "C:\\Users\\Admin\\AndroidStudioProjects\\Nutri\\app\\src\\main\\res\\values-xlarge-port\\dimens.xml",
                     "from": {
                         "startLines": "26,49,36,37,50,62,61,77,5,48,54,71,70,73,74,75,24,25,64,63,22,8,29,7,13,3,20,19,6,16,58,47,12,11,81,80,21,30,55,53,52,35,34,45,43,44,4,72,23,67,46,88,87,85,84,86,33,40",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,13 +21,13 @@
                     }
                 },
                 {
-                    "source": "E:\\Toprate\\FXP2\\app\\src\\main\\res\\values-xlarge-port\\strings.xml",
+                    "source": "C:\\Users\\Admin\\AndroidStudioProjects\\Nutri\\app\\src\\main\\res\\values-xlarge-port\\strings.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",
-                        "startOffsets": "93",
+                        "startOffsets": "95",
                         "endColumns": "42",
-                        "endOffsets": "131"
+                        "endOffsets": "133"
                     },
                     "to": {
                         "startLines": "60",
@@ -35,6 +35,26 @@
                         "startOffsets": "2969",
                         "endColumns": "42",
                         "endOffsets": "3007"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.scopic.fxp.app-mergeDebugResources-20:/values-xlarge-port-v4/values-xlarge-port-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Admin\\AndroidStudioProjects\\Nutri\\app\\src\\main\\res\\values-xlarge-port\\strings.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "42",
+                        "endOffsets": "93"
                     }
                 }
             ]

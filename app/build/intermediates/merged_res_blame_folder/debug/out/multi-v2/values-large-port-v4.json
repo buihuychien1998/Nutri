@@ -1,16 +1,16 @@
 {
     "logs": [
         {
-            "outputFile": "com.scopic.fxp.app-mergeDebugResources-20:/values-large-port-v4/values-large-port-v4.xml",
+            "outputFile": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.scopic.fxp.app-mergeDebugResources-20:\\values-large-port-v4\\values-large-port-v4.xml",
             "map": [
                 {
-                    "source": "E:\\Toprate\\FXP2\\app\\src\\main\\res\\values-large-port\\strings.xml",
+                    "source": "C:\\Users\\Admin\\AndroidStudioProjects\\Nutri\\app\\src\\main\\res\\values-large-port\\strings.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",
-                        "startOffsets": "93",
+                        "startOffsets": "95",
                         "endColumns": "41",
-                        "endOffsets": "130"
+                        "endOffsets": "132"
                     },
                     "to": {
                         "startLines": "68",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "E:\\Toprate\\FXP2\\app\\src\\main\\res\\values-large-port\\dimens.xml",
+                    "source": "C:\\Users\\Admin\\AndroidStudioProjects\\Nutri\\app\\src\\main\\res\\values-large-port\\dimens.xml",
                     "from": {
                         "startLines": "28,13,58,39,54,40,59,52,53,71,70,5,57,63,80,79,82,83,84,26,27,73,72,29,24,8,32,7,15,14,3,22,21,6,18,67,56,12,11,88,87,23,33,64,62,61,38,37,51,48,46,47,50,4,81,25,76,55,49,95,94,92,91,93,36,43",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,6 +35,26 @@
                         "startOffsets": "55,105,155,196,251,312,364,413,464,519,564,610,655,710,766,821,875,923,975,1029,1073,1121,1165,1208,1269,1324,1372,1421,1468,1507,1557,1602,1650,1698,1741,1796,1853,1900,1947,1993,2044,2095,2144,2189,2241,2292,2344,2406,2473,2517,2574,2622,2679,2722,2766,2814,2872,2921,2971,3014,3068,3117,3165,3208,3254,3304",
                         "endColumns": "49,49,40,54,60,51,48,50,54,44,45,44,54,55,54,53,47,51,53,43,47,43,42,60,54,47,48,46,38,49,44,47,47,42,54,56,46,46,45,50,50,48,44,51,50,51,61,66,43,56,47,56,42,43,47,57,48,49,42,53,48,47,42,45,49,63",
                         "endOffsets": "100,150,191,246,307,359,408,459,514,559,605,650,705,761,816,870,918,970,1024,1068,1116,1160,1203,1264,1319,1367,1416,1463,1502,1552,1597,1645,1693,1736,1791,1848,1895,1942,1988,2039,2090,2139,2184,2236,2287,2339,2401,2468,2512,2569,2617,2674,2717,2761,2809,2867,2916,2966,3009,3063,3112,3160,3203,3249,3299,3363"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.scopic.fxp.app-mergeDebugResources-20:/values-large-port-v4/values-large-port-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Admin\\AndroidStudioProjects\\Nutri\\app\\src\\main\\res\\values-large-port\\strings.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "41",
+                        "endOffsets": "92"
                     }
                 }
             ]

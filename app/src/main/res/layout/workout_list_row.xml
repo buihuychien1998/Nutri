@@ -2,15 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/layoutGorilla"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:paddingBottom="@dimen/list_padding"
-    android:paddingTop="@dimen/list_padding" >
+    android:layout_height="150dp">
 
     <ImageView
         android:id="@+id/imgLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_centerVertical="true"
+        android:scaleType="fitXY"
         android:layout_marginLeft="@dimen/thumbnail_margin_left"
         android:contentDescription="@string/app_name"
         android:src="@drawable/photo2_icon_nutrition_guide_scr" />
@@ -33,7 +32,18 @@
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:gravity="center_vertical"
-            android:lines="2"
+            android:scrollHorizontally="true"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/main_row_name"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="3"
             android:scrollHorizontally="true"
             android:text="@string/app_name"
             android:textColor="@android:color/white"

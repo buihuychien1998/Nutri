@@ -97,6 +97,7 @@
         <activity android:name=".ui.screen.ActivityWorkoutSelect"
             tools:ignore="Instantiatable">
         </activity>
+        <activity android:name=".ui.screen.PatientPhotoDetailFragment" />
     </application>
 
 </manifest>

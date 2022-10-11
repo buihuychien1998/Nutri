@@ -53,13 +53,13 @@ public class WorkoutCompleteScreenEventHandler implements OnClickListener {
 			openSharePopup(transaction);
 			break;
 			
-		case R.id.btnFacebook:
-			shareFacebook();
-			break;
-			
-		case R.id.btnTwitter:
-			shareTwitter();
-			break;
+//		case R.id.btnFacebook:
+//			shareFacebook();
+//			break;
+//
+//		case R.id.btnTwitter:
+//			shareTwitter();
+//			break;
 		}
 
 		// Commit the transaction

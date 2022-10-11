@@ -2,6 +2,8 @@ package com.scopic.fxp.ui.event;
 
 import java.util.List;
 
+import android.content.Context;
+import android.content.Intent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
@@ -17,17 +19,22 @@ import com.scopic.fxp.ui.commons.Params;
 import com.scopic.fxp.ui.screen.ActivityMenu;
 import com.scopic.fxp.ui.screen.ActivityMainWorkoutList;
 import com.scopic.fxp.ui.screen.ActivityWorkoutSelect;
+import com.scopic.fxp.ui.screen.Item;
+import com.scopic.fxp.ui.screen.PatientPhotoDetailFragment;
 
 public class MainWorkoutListScreenEventHandler implements OnClickListener, OnItemClickListener {
 
-	private List<WorkoutRow> workoutRows;
+	private List<Item> workoutRows;
 
 	private FragmentManager fragmentManager;
 
-	public MainWorkoutListScreenEventHandler(ActivityMainWorkoutList activityWorkoutList) {
+	private  Context context;
+
+	public MainWorkoutListScreenEventHandler(ActivityMainWorkoutList activityWorkoutList, Context context) {
 		super();
 
 		fragmentManager = activityWorkoutList.getActivity().getSupportFragmentManager();
+		this.context = context;
 	}
 
 	@Override
@@ -52,25 +59,30 @@ public class MainWorkoutListScreenEventHandler implements OnClickListener, OnIte
 
 	@Override
 	public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-		WorkoutRow workoutRow = (WorkoutRow) workoutRows.get(position);
+		Item workoutRow = (Item) workoutRows.get(position);
 		
-		FxpApp.menuBar.getCurrentViewSelected().setSelected(false);
-		FxpApp.menuBar.setCurrentViewSelected(FxpApp.menuBar.getHome());
+//		FxpApp.menuBar.getCurrentViewSelected().setSelected(false);
+//		FxpApp.menuBar.setCurrentViewSelected(FxpApp.menuBar.getHome());
+//
+//		FragmentTransaction transaction = fragmentManager.beginTransaction();
+//		ActivityWorkoutSelect activityWorkoutSelect = new ActivityWorkoutSelect();
+//		FxpApp.currentWorkoutName = workoutRow.getTitle();
+//
+//		transaction.replace(R.id.fragment, activityWorkoutSelect, Params.WORKOUT_SELECT_SCREEN);
+//		// Commit the transaction
+//		transaction.commit();
 
-		FragmentTransaction transaction = fragmentManager.beginTransaction();
-		ActivityWorkoutSelect activityWorkoutSelect = new ActivityWorkoutSelect();
-		FxpApp.currentWorkoutName = workoutRow.getName();
-		
-		transaction.replace(R.id.fragment, activityWorkoutSelect, Params.WORKOUT_SELECT_SCREEN);
-		// Commit the transaction
-		transaction.commit();
+		Intent itemDetailIntent = new Intent(context, PatientPhotoDetailFragment.class);
+		itemDetailIntent.putExtra("PLACE_TITLE",
+				workoutRow.getImageUrl());
+		context.startActivity(itemDetailIntent);
 	}
 
-	public List<WorkoutRow> getWorkoutRows() {
+	public List<Item> getWorkoutRows() {
 		return workoutRows;
 	}
 
-	public void setWorkoutRows(List<WorkoutRow> workoutRows) {
+	public void setWorkoutRows(List<Item> workoutRows) {
 		this.workoutRows = workoutRows;
 	}
 }

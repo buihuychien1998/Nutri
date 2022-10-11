@@ -5,6 +5,9 @@ import java.util.List;
 
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+
+import android.content.Context;
+import android.content.Intent;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
@@ -19,20 +22,24 @@ import com.scopic.fxp.ui.screen.ActivityBuyPremium;
 import com.scopic.fxp.ui.screen.ActivityMenu;
 import com.scopic.fxp.ui.screen.ActivityPremiumWorkoutList;
 import com.scopic.fxp.ui.screen.ActivityWorkoutSelect;
+import com.scopic.fxp.ui.screen.Item;
+import com.scopic.fxp.ui.screen.PatientPhotoDetailFragment;
 
 public class PremiumWorkoutListScreenEventHandler implements OnClickListener, OnItemClickListener {
 
-	private List<WorkoutRow> workoutRows;
+	private List<Item> workoutRows;
 	
 	private FragmentManager fragmentManager;
-	
+	private Context context;
+
 	private ActivityPremiumWorkoutList activityWorkoutList;
 
 	public PremiumWorkoutListScreenEventHandler(
-			ActivityPremiumWorkoutList activityWorkoutList) {
+			ActivityPremiumWorkoutList activityWorkoutList, Context context) {
 		super();
 		
 		this.activityWorkoutList = activityWorkoutList;
+		this.context = context;
 		
 		fragmentManager = activityWorkoutList.getActivity().getSupportFragmentManager();
 	}
@@ -59,39 +66,43 @@ public class PremiumWorkoutListScreenEventHandler implements OnClickListener, On
 
 	@Override
 	public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-		WorkoutRow workoutRow = (WorkoutRow) workoutRows.get(position);
+		Item workoutRow = (Item) workoutRows.get(position);
 		
 
-		UserData userData = null;
-
-		List<String> boughtPremiumWorkouts = new ArrayList<String>();
-		if(userData != null) {
-			boughtPremiumWorkouts = userData.getBoughtPremiumWorkouts();
-		}
-		
-		FragmentTransaction transaction = fragmentManager.beginTransaction();
-		FxpApp.menuBar.getCurrentViewSelected().setSelected(false);
-		FxpApp.menuBar.setCurrentViewSelected(FxpApp.menuBar.getHome());
-		
-		FxpApp.currentWorkoutName = workoutRow.getName();
-		
-		if(boughtPremiumWorkouts.contains(workoutRow.getPurchaseId())) {
-			ActivityWorkoutSelect activityWorkoutSelect = new ActivityWorkoutSelect();
-			transaction.replace(R.id.fragment, activityWorkoutSelect, Params.WORKOUT_SELECT_SCREEN);
-		} else {
-			ActivityBuyPremium activityBuyPremium = new ActivityBuyPremium();
-			transaction.replace(R.id.fragment, activityBuyPremium, Params.BUY_PREMIUM_SCREEN);
-		}
-		
-		// Commit the transaction
-		transaction.commit();
+	//		UserData userData = null;
+	//
+	//		List<Item> boughtPremiumWorkouts = new ArrayList<String>();
+//		if(userData != null) {
+//			boughtPremiumWorkouts = userData.getBoughtPremiumWorkouts();
+//		}
+//
+//		FragmentTransaction transaction = fragmentManager.beginTransaction();
+//		FxpApp.menuBar.getCurrentViewSelected().setSelected(false);
+//		FxpApp.menuBar.setCurrentViewSelected(FxpApp.menuBar.getHome());
+//
+//		FxpApp.currentWorkoutName = workoutRow.getName();
+//
+//		if(boughtPremiumWorkouts.contains(workoutRow.getPurchaseId())) {
+//			ActivityWorkoutSelect activityWorkoutSelect = new ActivityWorkoutSelect();
+//			transaction.replace(R.id.fragment, activityWorkoutSelect, Params.WORKOUT_SELECT_SCREEN);
+//		} else {
+//			ActivityBuyPremium activityBuyPremium = new ActivityBuyPremium();
+//			transaction.replace(R.id.fragment, activityBuyPremium, Params.BUY_PREMIUM_SCREEN);
+//		}
+//
+//		// Commit the transaction
+//		transaction.commit();
+		Intent itemDetailIntent = new Intent(context, PatientPhotoDetailFragment.class);
+		itemDetailIntent.putExtra("PLACE_TITLE",
+				workoutRow.getImageUrl());
+		context.startActivity(itemDetailIntent);
 	}
 
-	public List<WorkoutRow> getWorkoutRows() {
+	public List<Item> getWorkoutRows() {
 		return workoutRows;
 	}
 
-	public void setWorkoutRows(List<WorkoutRow> workoutRows) {
+	public void setWorkoutRows(List<Item> workoutRows) {
 		this.workoutRows = workoutRows;
 	}
 }

@@ -23,10 +23,12 @@ public class ActivityMenu extends Fragment {
 	private RelativeLayout mLayoutMain;
 	
 	private RelativeLayout mLayoutPremium;
-	
+
+	private RelativeLayout mLayoutSport;
+
 	private TextView mTxtNameMain;
 	
-	private TextView mNameMainSub;
+	//private TextView mNameMainSub;
 	
 	private TextView mNamePremium;
 	
@@ -42,18 +44,20 @@ public class ActivityMenu extends Fragment {
 		mImgPremium = (ImageView) view.findViewById(R.id.imgPremium);
 		mLayoutMain = (RelativeLayout) view.findViewById(R.id.layoutMain);
 		mLayoutPremium = (RelativeLayout) view.findViewById(R.id.layoutPremium);
+		mLayoutSport = (RelativeLayout) view.findViewById(R.id.layoutSport);
 		mTxtNameMain = (TextView) view.findViewById(R.id.txtNameMain);
-		mNameMainSub = (TextView) view.findViewById(R.id.txtNameMainSub);
+		//mNameMainSub = (TextView) view.findViewById(R.id.txtNameMainSub);
 		mNamePremium = (TextView) view.findViewById(R.id.txtNamePremium);
-		mNamePremiumSub = (TextView) view.findViewById(R.id.txtNamePremiumSub);
+		//mNamePremiumSub = (TextView) view.findViewById(R.id.txtNamePremiumSub);
 		
-		mImgMain.setImageResource(R.drawable.main_workout_default_icon);
-		mImgPremium.setImageResource(R.drawable.premium_workout_default_icon);
+	//	mImgMain.setImageResource(R.drawable.main_workout_default_icon);
+	//	mImgPremium.setImageResource(R.drawable.premium_workout_default_icon);
 		
 		MenuScreenEventHandler eventHandler = new MenuScreenEventHandler(this);
 		mLayoutMain.setOnClickListener(eventHandler);
 		mLayoutPremium.setOnClickListener(eventHandler);
-		
+		mLayoutSport.setOnClickListener(eventHandler);
+
 		RelativeLayout menubarLayout = (RelativeLayout) getActivity().findViewById(R.id.menubarLayout);
 		menubarLayout.setVisibility(View.VISIBLE);
 		
@@ -70,8 +74,8 @@ public class ActivityMenu extends Fragment {
         }
 		
 		mTxtNameMain.setTypeface(FxpApp.helveticaNeue);
-		mNameMainSub.setTypeface(FxpApp.helveticaNeue);
+		//mNameMainSub.setTypeface(FxpApp.helveticaNeue);
 		mNamePremium.setTypeface(FxpApp.helveticaNeue);
-		mNamePremiumSub.setTypeface(FxpApp.helveticaNeue);
+	//	mNamePremiumSub.setTypeface(FxpApp.helveticaNeue);
 	}
 }

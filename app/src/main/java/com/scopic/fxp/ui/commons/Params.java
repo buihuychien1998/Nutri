@@ -16,7 +16,10 @@ public interface Params {
 	public static final String MAIN_WORKOUT_LIST_SCREEN = "main_workout_list_screen";
 	
 	public static final String PREMIUM_WORKOUT_LIST_SCREEN = "premium_workout_list_screen";
-	
+
+
+	public static final String SPORT_WORKOUT_LIST_SCREEN = "sport_workout_list_screen";
+
 	public static final String FUEL_LIST_SCREEN = "fuel_list_screen";
 	
 	public static final String RESET_RESTORE_SCREEN = "reset_restore_screen";

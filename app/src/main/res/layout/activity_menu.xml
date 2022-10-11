@@ -16,22 +16,18 @@
     <RelativeLayout
         android:id="@+id/layoutMain"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:layout_marginBottom="@dimen/menu_margin"
-        android:paddingTop="@dimen/layoutGorilla_top_margin"
-        android:paddingBottom="@dimen/layoutGorilla_top_margin"
         android:background="@drawable/menu_item_background_yellow" >
 
         <ImageView
             android:id="@+id/imgMain"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="@dimen/thumbnail_margin_left"
-            android:layout_marginTop="@dimen/thumbnail_margin_top"
-            android:layout_marginBottom="@dimen/thumbnail_margin_top"
-            android:contentDescription="@string/app_name"
-            android:src="@drawable/photo_icon_main_workout" />
+            android:scaleType="fitXY"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/icon_food" />
 
         <LinearLayout
             android:id="@+id/layoutNameMain"
@@ -49,17 +45,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/main"
-                android:lines="2"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/gorilla_menu" />
 
-            <TextView
-                android:id="@+id/txtNameMainSub"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/workouts"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/gorilla_menu_sub"/>
         </LinearLayout>
 
         <ImageView
@@ -76,21 +64,18 @@
     <RelativeLayout
         android:id="@+id/layoutPremium"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="@dimen/layoutGorilla_top_margin"
-        android:paddingBottom="@dimen/layoutGorilla_top_margin"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/menu_item_background_red" >
 
         <ImageView
             android:id="@+id/imgPremium"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="@dimen/thumbnail_margin_left"
-            android:layout_marginTop="@dimen/thumbnail_margin_top"
-            android:layout_marginBottom="@dimen/thumbnail_margin_top"
-            android:contentDescription="@string/app_name"
-            android:src="@drawable/photo_icon_premium_workout" />
+            android:scaleType="fitXY"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/icon_drink" />
 
         <LinearLayout
             android:id="@+id/layoutNamePremium"
@@ -111,17 +96,114 @@
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/gorilla_menu" />
 
-            <TextView
-                android:id="@+id/txtNamePremiumSub"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/workouts"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/gorilla_menu_sub"/>
+
         </LinearLayout>
 
         <ImageView
             android:id="@+id/imgArrow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/arrow_right_margin"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/arrow_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutPremium"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingTop="@dimen/layoutGorilla_top_margin"
+        android:paddingBottom="@dimen/layoutGorilla_top_margin"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/menu_item_background_yellow" >
+
+        <ImageView
+            android:id="@+id/imgPremium"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/icon_fun" />
+
+        <LinearLayout
+            android:id="@+id/layoutNamePremium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgPremium"
+            android:layout_toLeftOf="@+id/imgArrow1"
+            android:layout_marginLeft="@dimen/text_margin_left"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/txtNamePremium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/FUNCTIONAL_FOODS"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/gorilla_menu" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgArrow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/arrow_right_margin"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/arrow_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutSport"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingTop="@dimen/layoutGorilla_top_margin"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="@dimen/layoutGorilla_top_margin"
+        android:background="@drawable/menu_item_background_red" >
+
+        <ImageView
+            android:id="@+id/imgSport1"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/icon_exe" />
+
+        <LinearLayout
+            android:id="@+id/layoutSport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgSport1"
+            android:layout_toLeftOf="@+id/imgSport"
+            android:layout_marginLeft="@dimen/text_margin_left"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/txtNameSport"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/EXERCISE_EQUIPMENT"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/gorilla_menu" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgSport"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"

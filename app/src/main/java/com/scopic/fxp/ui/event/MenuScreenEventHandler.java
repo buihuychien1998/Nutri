@@ -9,6 +9,7 @@ import androidx.fragment.app.FragmentTransaction;
 import com.scopic.fxp.FxpApp;
 import com.scopic.fxp.R;
 import com.scopic.fxp.ui.commons.Params;
+import com.scopic.fxp.ui.screen.ActivityListSport;
 import com.scopic.fxp.ui.screen.ActivityMainWorkoutList;
 import com.scopic.fxp.ui.screen.ActivityMenu;
 import com.scopic.fxp.ui.screen.ActivityPremiumWorkoutList;
@@ -28,12 +29,16 @@ public class MenuScreenEventHandler implements OnClickListener {
 		FragmentTransaction transaction = fragmentManager.beginTransaction();
 		
 		switch (v.getId()) {
-		case R.id.layoutMain:
-			openMainWorkoutList(transaction);
-			break;
-		case R.id.layoutPremium:
-			openPremiumWorkoutList(transaction);
-			break;
+			case R.id.layoutMain:
+				openMainWorkoutList(transaction);
+				break;
+			case R.id.layoutPremium:
+				openPremiumWorkoutList(transaction);
+				break;
+
+			case R.id.layoutSport:
+				openLayoutSport(transaction);
+				break;
 		}
 		
 		// Commit the transaction
@@ -48,6 +53,11 @@ public class MenuScreenEventHandler implements OnClickListener {
 	private void openPremiumWorkoutList(FragmentTransaction transaction) {
 		FxpApp.isMainWorkout = false;
 		transaction.replace(R.id.fragment, new ActivityPremiumWorkoutList(), Params.PREMIUM_WORKOUT_LIST_SCREEN);
+	}
+
+	private void openLayoutSport(FragmentTransaction transaction) {
+		FxpApp.isMainWorkout = false;
+		transaction.replace(R.id.fragment, new ActivityListSport(), Params.SPORT_WORKOUT_LIST_SCREEN);
 	}
 
 }

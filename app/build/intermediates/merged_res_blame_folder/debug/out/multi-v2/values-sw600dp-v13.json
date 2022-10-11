@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "com.scopic.fxp.app-mergeDebugResources-20:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "C:\\Users\\Admin\\.gradle\\daemon\\7.4\\com.scopic.fxp.app-mergeDebugResources-20:\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\Admin\\AndroidStudioProjects\\Nutri\\app\\src\\main\\res\\values-sw600dp\\strings.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "95",
+                        "endColumns": "41",
+                        "endOffsets": "132"
+                    },
+                    "to": {
+                        "startLines": "82",
+                        "startColumns": "4",
+                        "startOffsets": "4259",
+                        "endColumns": "41",
+                        "endOffsets": "4296"
+                    }
+                },
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\9fe32aa9207c6e97b3225ddc880b0edb\\transformed\\appcompat-1.4.2\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
@@ -14,24 +31,7 @@
                     }
                 },
                 {
-                    "source": "E:\\Toprate\\FXP2\\app\\src\\main\\res\\values-sw600dp\\strings.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "93",
-                        "endColumns": "41",
-                        "endOffsets": "130"
-                    },
-                    "to": {
-                        "startLines": "82",
-                        "startColumns": "4",
-                        "startOffsets": "4259",
-                        "endColumns": "41",
-                        "endOffsets": "4296"
-                    }
-                },
-                {
-                    "source": "E:\\Toprate\\FXP2\\app\\src\\main\\res\\values-sw600dp\\dimens.xml",
+                    "source": "C:\\Users\\Admin\\AndroidStudioProjects\\Nutri\\app\\src\\main\\res\\values-sw600dp\\dimens.xml",
                     "from": {
                         "startLines": "28,13,61,39,57,64,40,63,62,55,56,76,75,91,5,60,68,85,84,87,88,89,26,27,78,77,29,24,8,32,7,15,14,3,22,21,6,18,72,59,12,11,95,94,23,33,69,67,66,38,37,54,51,49,50,53,4,86,25,81,58,52,102,101,99,98,100,36,45,46,42,41",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -45,6 +45,41 @@
                         "startOffsets": "611,661,711,752,807,867,912,964,1016,1065,1116,1171,1216,1262,1326,1371,1426,1482,1537,1591,1639,1691,1745,1789,1837,1881,1924,1985,2040,2088,2137,2184,2223,2273,2318,2366,2414,2457,2512,2569,2616,2663,2709,2760,2811,2860,2905,2957,3008,3060,3122,3189,3233,3290,3338,3395,3438,3482,3530,3588,3637,3687,3730,3784,3833,3881,3924,3970,4020,4084,4152,4207",
                         "endColumns": "49,49,40,54,59,44,51,51,48,50,54,44,45,63,44,54,55,54,53,47,51,53,43,47,43,42,60,54,47,48,46,38,49,44,47,47,42,54,56,46,46,45,50,50,48,44,51,50,51,61,66,43,56,47,56,42,43,47,57,48,49,42,53,48,47,42,45,49,63,67,54,51",
                         "endOffsets": "656,706,747,802,862,907,959,1011,1060,1111,1166,1211,1257,1321,1366,1421,1477,1532,1586,1634,1686,1740,1784,1832,1876,1919,1980,2035,2083,2132,2179,2218,2268,2313,2361,2409,2452,2507,2564,2611,2658,2704,2755,2806,2855,2900,2952,3003,3055,3117,3184,3228,3285,3333,3390,3433,3477,3525,3583,3632,3682,3725,3779,3828,3876,3919,3965,4015,4079,4147,4202,4254"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.scopic.fxp.app-mergeDebugResources-20:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Admin\\AndroidStudioProjects\\Nutri\\app\\src\\main\\res\\values-sw600dp\\strings.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "611",
+                        "endColumns": "41",
+                        "endOffsets": "648"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\9fe32aa9207c6e97b3225ddc880b0edb\\transformed\\appcompat-1.4.2\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
                     }
                 }
             ]

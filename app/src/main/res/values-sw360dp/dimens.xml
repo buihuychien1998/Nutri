@@ -1,7 +1,0 @@
-<resources>
-
-    <!-- Menu bar -->
-    <dimen name="menu_padding_top_bottom">15dp</dimen>
-    <dimen name="menu_item_height">40dp</dimen>
-
-</resources>

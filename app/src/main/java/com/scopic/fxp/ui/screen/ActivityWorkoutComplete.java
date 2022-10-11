@@ -80,9 +80,9 @@ public class ActivityWorkoutComplete extends AbstractFragment {
 		mBtnDone = view.findViewById(R.id.btnDone);
 		mShare = view.findViewById(R.id.btnShare);
 		
-		mTxtShare = (TextView) view.findViewById(R.id.txtShare);
-		mFacebook = view.findViewById(R.id.btnFacebook);
-		mTwitter = view.findViewById(R.id.btnTwitter);
+	//	mTxtShare = (TextView) view.findViewById(R.id.txtShare);
+	//	mFacebook = view.findViewById(R.id.btnFacebook);
+		//mTwitter = view.findViewById(R.id.btnTwitter);
 		
 		WorkoutCompleteScreenEventHandler eventHandler = new WorkoutCompleteScreenEventHandler(this);
 		mBack.setOnClickListener(eventHandler);

@@ -26,8 +26,10 @@
     <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
     <string name="error_not_available">This video is not available.</string>
     
-    <string name="main">MAIN</string>
-    <string name="premium">PREMIUM</string>
+    <string name="main">FOOD</string>
+    <string name="premium">DRINKS</string>
+    <string name="FUNCTIONAL_FOODS">FUNCTIONAL FOODS</string>
+    <string name="EXERCISE_EQUIPMENT">EXERCISE EQUIPMENT</string>
     <string name="workouts">WORKOUTS</string>
     <string name="workouts_normal">Workouts</string>
     <string name="workout">Workout</string>
@@ -116,4 +118,23 @@
     
     <!-- Determine screen size -->
     <string name="screen_size">5</string>
+    <string name="beef">Beef</string>
+    <string name="shrimp">Shrimp</string>
+    <string name="crab">Crab</string>
+    <string name="broccoli">Broccoli</string>
+    <string name="chicken">Chicken</string>
+    <string name="potato">Potato</string>
+    <string name="vegetable">A starchy plant tuber which is one of the most important food crops, cooked and eaten as a vegetable</string>
+    <string name="a_hh">Broiler is one of the popular meat types</string>
+    <string name="ádas">Broccoli is an edible green plant in the cabbage family.</string>
+    <string name="sadasd">King crab is known as king crab with delicious and attractive meat</string>
+    <string name="edđ">A small free-swimming crustacean with an elongated body, typically marine and frequently harvested for food.</string>
+    <string name="uuuuu">Beef is the culinary name for meat from cattle.</string>
+    <string name="oange">Orange juice</string>
+    <string name="milk">Milk</string>
+    <string name="smoothie">Avocado smoothie</string>
+    <string name="energy">Energy drink</string>
+    <string name="juice">Apple juice</string>
+    <string name="Beer">Beer</string>
+    <string name="zdfdf">zdfdf</string>
 </resources>

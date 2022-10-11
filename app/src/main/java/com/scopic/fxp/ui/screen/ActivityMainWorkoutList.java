@@ -27,6 +27,8 @@ public class ActivityMainWorkoutList extends AbstractFragment {
 
 	private ListView mWorkoutList;
 
+	final List<Item> items = new ArrayList<>();
+
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
@@ -36,23 +38,50 @@ public class ActivityMainWorkoutList extends AbstractFragment {
 		mTitle = (TextView) view.findViewById(R.id.title);
 		mWorkoutList = (ListView) view.findViewById(R.id.workouts);
 		mBack = view.findViewById(R.id.imgBack);
-		
-		MainWorkoutListScreenEventHandler eventHandler = new MainWorkoutListScreenEventHandler(this);
+		initData();
+		MainWorkoutListScreenEventHandler eventHandler = new MainWorkoutListScreenEventHandler(this,getContext());
 		mBack.setOnClickListener(eventHandler);
 		
 		List<WorkoutRow> workoutRows = prepareData();
-		
-		WorkoutListAdapter workoutListAdapter = new WorkoutListAdapter(this.getActivity(), workoutRows);
+
+		FoodAdapter workoutListAdapter = new FoodAdapter(this.requireActivity(), items);
 		mWorkoutList.setAdapter(workoutListAdapter);
 		mWorkoutList.setOnItemClickListener(eventHandler);
-		eventHandler.setWorkoutRows(workoutRows);
+		eventHandler.setWorkoutRows(items);
 		
 		RelativeLayout menubarLayout = (RelativeLayout) getActivity().findViewById(R.id.menubarLayout);
 		menubarLayout.setVisibility(View.VISIBLE);
 		
 		return view;
 	}
-	
+
+	private void initData() {
+		items.add(new Item(getString(R.string.beef),
+				"https://upload.wikimedia.org/wikipedia/commons/a/a3/Rostas_%28ready_and_served%29.JPG",
+				getString(R.string.uuuuu)));
+
+		items.add(new Item(getString(R.string.shrimp),
+				R.drawable.shrimp,
+				getString(R.string.edđ)));
+
+		items.add(new Item(getString(R.string.crab),
+				R.drawable.crab,
+				getString(R.string.sadasd)));
+
+		items.add(new Item(getString(R.string.broccoli),
+				R.drawable.broccori,
+				getString(R.string.ádas)));
+
+		items.add(new Item(getString(R.string.chicken),
+				R.drawable.chicken,
+				getString(R.string.a_hh)));
+
+		items.add(new Item(getString(R.string.potato),
+				R.drawable.potato,
+				getString(R.string.vegetable)));
+
+	}
+
 	private List<WorkoutRow> prepareData() {
 		Map<String, List<WorkoutBean>> workoutsMap = FxpApp.mainWorkoutsMap;
 		
