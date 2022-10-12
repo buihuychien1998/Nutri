@@ -8,10 +8,8 @@ android {
         applicationId "com.mteam.nutri"
         minSdkVersion 14
         targetSdkVersion 33
-        versionCode 107
-        versionName "20.0"
-//        versionCode 1
-//        versionName "1.0"
+        versionCode 1
+        versionName "1.0"
         multiDexEnabled true
     }
 

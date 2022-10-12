@@ -2,3 +2,5 @@ app/build
 *.apk
 **/proguard/
 *.log
+local.properties
+/local.properties
