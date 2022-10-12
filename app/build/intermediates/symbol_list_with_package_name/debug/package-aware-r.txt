@@ -1,4 +1,4 @@
-com.scopic.fxp
+com.mteam.nutri
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -764,6 +764,8 @@ drawable arrow_back
 drawable arrow_left
 drawable arrow_right
 drawable background
+drawable background_button
+drawable background_gradient
 drawable beef
 drawable bkg_content_workout_complete_scr
 drawable bkg_day_content_workout_select_scr
@@ -826,6 +828,7 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable hula_icon
 drawable ic_launcher
+drawable ic_main
 drawable icon1
 drawable icon10
 drawable icon11
@@ -883,7 +886,7 @@ drawable icon_drink
 drawable icon_exe
 drawable icon_food
 drawable icon_fun
-drawable img
+drawable icon_logo
 drawable list_background
 drawable lunch_icon
 drawable lunch_thumb
@@ -1092,7 +1095,6 @@ id btnBuy
 id btnCancel
 id btnComplete
 id btnDone
-id btnExercises
 id btnHome
 id btnNutrition
 id btnOk
@@ -1209,7 +1211,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
-id nutritions
+id nutrition
 id off
 id on
 id parentPanel

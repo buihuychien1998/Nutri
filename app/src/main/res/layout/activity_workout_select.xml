@@ -100,7 +100,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent" />
 
-            <com.scopic.fxp.ui.components.NonSwipeableViewPager
+            <com.mteam.nutri.ui.components.NonSwipeableViewPager
                 android:id="@+id/scrDays"
                 android:layout_width="fill_parent"
                 android:layout_height="@dimen/workout_day_height"

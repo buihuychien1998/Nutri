@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.scopic.fxp.app-mergeDebugResources-20:/values-v23/values-v23.xml",
+            "outputFile": "com.mteam.nutri.app-mergeDebugResources-20:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\9fe32aa9207c6e97b3225ddc880b0edb\\transformed\\appcompat-1.4.2\\res\\values-v23\\values-v23.xml",
+                    "source": "/Users/keey/.gradle/caches/transforms-3/9fe32aa9207c6e97b3225ddc880b0edb/transformed/appcompat-1.4.2/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -7,11 +7,11 @@
 
     <ImageView
         android:id="@+id/imgGorilla"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/hula_icon_bottom_margin"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="60dp"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/hula_icon" />
+        android:src="@drawable/ic_main" />
 
     <RelativeLayout
         android:id="@+id/layoutMain"
@@ -169,7 +169,7 @@
         android:paddingTop="@dimen/layoutGorilla_top_margin"
         android:layout_marginTop="20dp"
         android:paddingBottom="@dimen/layoutGorilla_top_margin"
-        android:background="@drawable/menu_item_background_red" >
+        android:background="@drawable/menu_item_background_yellow" >
 
         <ImageView
             android:id="@+id/imgSport1"

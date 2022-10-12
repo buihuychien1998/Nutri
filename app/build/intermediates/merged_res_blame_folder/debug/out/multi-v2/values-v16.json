@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.scopic.fxp.app-mergeDebugResources-20:/values-v16/values-v16.xml",
+            "outputFile": "com.mteam.nutri.app-mergeDebugResources-20:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\721f5b34e748a33485238ceb50c18896\\transformed\\core-1.7.0\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/keey/.gradle/caches/transforms-3/721f5b34e748a33485238ceb50c18896/transformed/core-1.7.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-3\\9fe32aa9207c6e97b3225ddc880b0edb\\transformed\\appcompat-1.4.2\\res\\values-v16\\values-v16.xml",
+                    "source": "/Users/keey/.gradle/caches/transforms-3/9fe32aa9207c6e97b3225ddc880b0edb/transformed/appcompat-1.4.2/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

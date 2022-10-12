@@ -36,7 +36,7 @@
     </RelativeLayout>
 
     <ListView
-        android:id="@+id/nutritions"
+        android:id="@+id/nutrition"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/list_background"
@@ -44,6 +44,7 @@
         android:divider="@color/line_divider"
         android:dividerHeight="@dimen/divider_height"
         android:listSelector="@android:color/transparent"
+        tools:listitem="@layout/exercise_row"
         android:scrollbars="none" />
 
 </LinearLayout>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.scopic.fxp"
+    package="com.mteam.nutri"
     android:versionCode="2"
     android:versionName="1.0" >
 
@@ -14,12 +14,12 @@
     <uses-permission android:name="com.android.vending.BILLING" />
 
     <application
-        android:name="com.scopic.fxp.FxpApp"
+        android:name="com.mteam.nutri.FxpApp"
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/icon_logo"
         android:label="@string/app_name"
         android:largeHeap="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
         <activity
             android:name=".ui.screen.ActivitySplash"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
@@ -97,7 +97,10 @@
         <activity android:name=".ui.screen.ActivityWorkoutSelect"
             tools:ignore="Instantiatable">
         </activity>
-        <activity android:name=".ui.screen.PatientPhotoDetailFragment" />
+        <activity android:name=".ui.screen.PatientPhotoDetailFragment"
+            tools:ignore="ExportedActivity"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>

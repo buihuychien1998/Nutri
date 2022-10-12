@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.scopic.fxp"
+    package="com.mteam.nutri"
     android:versionCode="107"
     android:versionName="20.0" >
 
@@ -17,17 +17,17 @@
     <uses-permission android:name="com.android.vending.BILLING" />
 
     <application
-        android:name="com.scopic.fxp.FxpApp"
+        android:name="com.mteam.nutri.FxpApp"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/icon_logo"
         android:label="@string/app_name"
         android:largeHeap="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
         <activity
-            android:name="com.scopic.fxp.ui.screen.ActivitySplash"
+            android:name="com.mteam.nutri.ui.screen.ActivitySplash"
             android:exported="true"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
             <intent-filter>
@@ -37,18 +37,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.scopic.fxp.ui.screen.ActivityMain"
+            android:name="com.mteam.nutri.ui.screen.ActivityMain"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:launchMode="singleTask"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
         </activity>
         <activity
-            android:name="com.scopic.fxp.ui.screen.ActivityVideoDemo"
+            android:name="com.mteam.nutri.ui.screen.ActivityVideoDemo"
             android:screenOrientation="landscape"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         <activity
-            android:name="com.scopic.fxp.twitter.PrepareRequestTokenActivity"
+            android:name="com.mteam.nutri.twitter.PrepareRequestTokenActivity"
             android:exported="true"
             android:launchMode="singleTask" >
             <intent-filter>
@@ -62,33 +62,36 @@
                     android:scheme="x-oauthflow-twitter" />
             </intent-filter>
         </activity>
-        <activity android:name="com.scopic.fxp.ui.screen.ActivityExerciseList" >
+        <activity android:name="com.mteam.nutri.ui.screen.ActivityExerciseList" >
         </activity>
-        <activity android:name="com.scopic.fxp.ui.screen.ActivityFuelList" >
+        <activity android:name="com.mteam.nutri.ui.screen.ActivityFuelList" >
         </activity>
-        <activity android:name="com.scopic.fxp.ui.screen.ActivityMainWorkoutList" >
+        <activity android:name="com.mteam.nutri.ui.screen.ActivityMainWorkoutList" >
         </activity>
-        <activity android:name="com.scopic.fxp.ui.screen.ActivityMenu" >
+        <activity android:name="com.mteam.nutri.ui.screen.ActivityMenu" >
         </activity>
-        <activity android:name="com.scopic.fxp.ui.screen.ActivityNutritionList" >
+        <activity android:name="com.mteam.nutri.ui.screen.ActivityNutritionList" >
         </activity>
-        <activity android:name="com.scopic.fxp.ui.screen.ActivityPremiumWorkoutList" >
+        <activity android:name="com.mteam.nutri.ui.screen.ActivityPremiumWorkoutList" >
         </activity>
-        <activity android:name="com.scopic.fxp.ui.screen.ActivitySettings" >
+        <activity android:name="com.mteam.nutri.ui.screen.ActivitySettings" >
         </activity>
-        <activity android:name="com.scopic.fxp.ui.screen.ActivityResetRestoreList" >
+        <activity android:name="com.mteam.nutri.ui.screen.ActivityResetRestoreList" >
         </activity>
-        <activity android:name="com.scopic.fxp.ui.screen.ActivityExerciseDetail" >
+        <activity android:name="com.mteam.nutri.ui.screen.ActivityExerciseDetail" >
         </activity>
-        <activity android:name="com.scopic.fxp.ui.screen.ActivityNutritionDetail" >
+        <activity android:name="com.mteam.nutri.ui.screen.ActivityNutritionDetail" >
         </activity>
-        <activity android:name="com.scopic.fxp.ui.screen.ActivityWorkoutDetail" >
+        <activity android:name="com.mteam.nutri.ui.screen.ActivityWorkoutDetail" >
         </activity>
-        <activity android:name="com.scopic.fxp.ui.screen.ActivityWorkoutComplete" >
+        <activity android:name="com.mteam.nutri.ui.screen.ActivityWorkoutComplete" >
         </activity>
-        <activity android:name="com.scopic.fxp.ui.screen.ActivityWorkoutSelect" >
+        <activity android:name="com.mteam.nutri.ui.screen.ActivityWorkoutSelect" >
         </activity>
-        <activity android:name="com.scopic.fxp.ui.screen.PatientPhotoDetailFragment" />
+        <activity
+            android:name="com.mteam.nutri.ui.screen.PatientPhotoDetailFragment"
+            android:exported="true" >
+        </activity>
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
@@ -111,7 +114,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.scopic.fxp.firebaseinitprovider"
+            android:authorities="com.mteam.nutri.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
@@ -127,7 +130,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.scopic.fxp.androidx-startup"
+            android:authorities="com.mteam.nutri.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

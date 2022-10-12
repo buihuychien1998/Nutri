@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/background" />
+        android:src="@drawable/background_gradient" />
 
     <LinearLayout
         android:id="@+id/mainMenuLayout"
@@ -28,7 +28,7 @@
             android:id="@+id/menubarLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bottom_bar_background" >
+            android:background="@drawable/background_button" >
         </RelativeLayout>
     </LinearLayout>
 

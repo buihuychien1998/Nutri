@@ -13,23 +13,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:background="@drawable/tab_bar_home"
+        android:background="@drawable/tab_bar_nutrition"
         android:gravity="bottom|center_horizontal"/>
 
-    <Button
-        android:id="@+id/btnExercises"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:background="@drawable/tab_bar_exercises"
-        android:gravity="bottom|center_horizontal"/>
+<!--    <Button-->
+<!--        android:id="@+id/btnExercises"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:background="@drawable/tab_bar_exercises"-->
+<!--        android:gravity="bottom|center_horizontal"/>-->
 
     <Button
         android:id="@+id/btnNutrition"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:background="@drawable/tab_bar_nutrition"
+        android:background="@drawable/tab_bar_home"
         android:gravity="bottom|center_horizontal"/>
 
     <Button
