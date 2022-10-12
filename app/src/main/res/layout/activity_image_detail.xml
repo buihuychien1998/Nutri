@@ -4,6 +4,37 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_gradient">
+    <RelativeLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/top_layout_margin"
+        android:layout_marginRight="@dimen/top_layout_margin"
+        android:paddingBottom="@dimen/top_layout_padding"
+        android:paddingTop="@dimen/top_layout_padding" >
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/arrow_back"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/main"
+            android:visibility="gone"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/title_font_size" />
+    </RelativeLayout>
 
     <ImageView
         android:id="@+id/patientImage"
